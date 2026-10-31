@@ -1,0 +1,79 @@
+dataset_id,feature_name,canonical_name,unit,role,description,use_in_model
+uci_water_treatment,Q-E,Q-E,m³/d (not stated in .names; assigned from the flow magnitude),measured,Influent flow,True
+uci_water_treatment,ZN-E,ZN-E,mg/L (not stated in .names; assigned as the usual concentration unit),measured,Influent zinc,True
+uci_water_treatment,PH-E,PH-E,pH,measured,Influent pH,True
+uci_water_treatment,DBO-E,DBO-E,mg/L (not stated in .names; assigned as the usual concentration unit),measured,Influent BOD,True
+uci_water_treatment,DQO-E,DQO-E,mg/L (not stated in .names; assigned as the usual concentration unit),measured,Influent COD,True
+uci_water_treatment,SS-E,SS-E,mg/L (not stated in .names; assigned as the usual concentration unit),measured,Influent suspended solids,True
+uci_water_treatment,SSV-E,SSV-E,% (not stated in .names; values mostly fall in 0–100),measured,Influent volatile suspended solids fraction,True
+uci_water_treatment,SED-E,SED-E,"not stated (magnitude is close to settled volume, mL/L)",measured,Influent settleable solids,True
+uci_water_treatment,COND-E,COND-E,µS/cm (not stated in .names; assigned from the conductivity magnitude),measured,Influent conductivity,True
+uci_water_treatment,PH-P,PH-P,pH,measured,Primary settler inlet pH,True
+uci_water_treatment,DBO-P,DBO-P,mg/L (not stated in .names; assigned as the usual concentration unit),measured,Primary settler inlet BOD,True
+uci_water_treatment,SS-P,SS-P,mg/L (not stated in .names; assigned as the usual concentration unit),measured,Primary settler inlet suspended solids,True
+uci_water_treatment,SSV-P,SSV-P,% (not stated in .names; values mostly fall in 0–100),measured,Primary settler inlet volatile suspended solids fraction,True
+uci_water_treatment,SED-P,SED-P,"not stated (magnitude is close to settled volume, mL/L)",measured,Primary settler inlet settleable solids,True
+uci_water_treatment,COND-P,COND-P,µS/cm (not stated in .names; assigned from the conductivity magnitude),measured,Primary settler inlet conductivity,True
+uci_water_treatment,PH-D,PH-D,pH,measured,Secondary settler inlet pH,True
+uci_water_treatment,DBO-D,DBO-D,mg/L (not stated in .names; assigned as the usual concentration unit),measured,Secondary settler inlet BOD,True
+uci_water_treatment,DQO-D,DQO-D,mg/L (not stated in .names; assigned as the usual concentration unit),measured,Secondary settler inlet COD,True
+uci_water_treatment,SS-D,SS-D,mg/L (not stated in .names; assigned as the usual concentration unit),measured,Secondary settler inlet suspended solids,True
+uci_water_treatment,SSV-D,SSV-D,% (not stated in .names; values mostly fall in 0–100),measured,Secondary settler inlet volatile suspended solids fraction,True
+uci_water_treatment,SED-D,SED-D,"not stated (magnitude is close to settled volume, mL/L)",measured,Secondary settler inlet settleable solids,True
+uci_water_treatment,COND-D,COND-D,µS/cm (not stated in .names; assigned from the conductivity magnitude),measured,Secondary settler inlet conductivity,True
+uci_water_treatment,PH-S,PH-S,pH,measured,Effluent pH,True
+uci_water_treatment,DBO-S,DBO-S,mg/L (not stated in .names; assigned as the usual concentration unit),measured,Effluent BOD,True
+uci_water_treatment,DQO-S,DQO-S,mg/L (not stated in .names; assigned as the usual concentration unit),measured,Effluent COD,True
+uci_water_treatment,SS-S,SS-S,mg/L (not stated in .names; assigned as the usual concentration unit),measured,Effluent suspended solids,True
+uci_water_treatment,SSV-S,SSV-S,% (not stated in .names; values mostly fall in 0–100),measured,Effluent volatile suspended solids fraction,True
+uci_water_treatment,SED-S,SED-S,"not stated (magnitude is close to settled volume, mL/L)",measured,Effluent settleable solids,True
+uci_water_treatment,COND-S,COND-S,µS/cm (not stated in .names; assigned from the conductivity magnitude),measured,Effluent conductivity,True
+uci_water_treatment,RD-DBO-P,RD-DBO-P,%,performance,Primary settler BOD removal,False
+uci_water_treatment,RD-SS-P,RD-SS-P,%,performance,Primary settler suspended solids removal,False
+uci_water_treatment,RD-SED-P,RD-SED-P,%,performance,Primary settler settleable solids removal,False
+uci_water_treatment,RD-DBO-S,RD-DBO-S,%,performance,Secondary settler BOD removal,False
+uci_water_treatment,RD-DQO-S,RD-DQO-S,%,performance,Secondary settler COD removal,False
+uci_water_treatment,RD-DBO-G,RD-DBO-G,%,performance,Plant-wide BOD removal,False
+uci_water_treatment,RD-DQO-G,RD-DQO-G,%,performance,Plant-wide COD removal,False
+uci_water_treatment,RD-SS-G,RD-SS-G,%,performance,Plant-wide suspended solids removal,False
+uci_water_treatment,RD-SED-G,RD-SED-G,%,performance,Plant-wide settleable solids removal,False
+bsm1_influent,t,t,d,simulated,Simulation time,False
+bsm1_influent,Si,Si,g COD/m³,simulated,Soluble inert organic matter,True
+bsm1_influent,Ss,Ss,g COD/m³,simulated,Readily biodegradable substrate,True
+bsm1_influent,Xi,Xi,g COD/m³,simulated,Particulate inert organic matter,True
+bsm1_influent,Xs,Xs,g COD/m³,simulated,Slowly biodegradable substrate,True
+bsm1_influent,Xbh,Xbh,g COD/m³,simulated,Heterotrophic biomass,True
+bsm1_influent,Xba,Xba,g COD/m³,simulated,"Autotrophic biomass, defined as 0 in the influent",False
+bsm1_influent,Xp,Xp,g COD/m³,simulated,"Particulate products, defined as 0 in the influent",False
+bsm1_influent,So,So,g/m³,simulated,"Dissolved oxygen, defined as 0 in the influent and not counted as DO coverage",False
+bsm1_influent,Sno,Sno,g N/m³,simulated,"Nitrate nitrogen, defined as 0 in the influent",False
+bsm1_influent,Snh,Snh,g N/m³,simulated,Ammonia nitrogen,True
+bsm1_influent,Snd,Snd,g N/m³,simulated,Soluble biodegradable organic nitrogen,True
+bsm1_influent,Xnd,Xnd,g N/m³,simulated,Particulate biodegradable organic nitrogen,True
+bsm1_influent,Salk,Salk,mol/m³,simulated,Alkalinity,True
+bsm1_influent,Q,Q,m³/d,simulated,Influent flow,True
+bsm1_influent,COD_asm1,COD_asm1,g COD/m³,derived,"Sum of ASM1 components, not a laboratory COD",False
+bsm1_influent,weather,weather,—,label,Influent-file scenario,False
+dhi_wwtp_inflow,flow,flow,m³/h,measured,WWTP inflow,True
+dhi_wwtp_inflow,acc_precip,acc_precip,mm,meteorological,Accumulated precipitation; not used by the anomaly model by default,False
+dhi_wwtp_inflow,mean_pressure,mean_pressure,hPa,meteorological,Air pressure,False
+dhi_wwtp_inflow,mean_radiation,mean_radiation,W/m²,meteorological,Radiation,False
+dhi_wwtp_inflow,mean_relative_hum,mean_relative_hum,%,meteorological,Relative humidity,False
+dhi_wwtp_inflow,mean_temp,mean_temp,°C,meteorological,"Air temperature, not wastewater temperature",False
+dhi_wwtp_inflow,temp_grass,temp_grass,°C,meteorological,Grass temperature,False
+dhi_wwtp_inflow,temp_soil_10,temp_soil_10,°C,meteorological,Soil temperature at 10 cm,False
+dhi_wwtp_inflow,temp_soil_30,temp_soil_30,°C,meteorological,Soil temperature at 30 cm,False
+koeln_weiden,inflow_L_s,inflow_L_s,L/s,measured,WWTP inflow,True
+koeln_weiden,level_1_m,level_1_m,mNHN,measured,Sewer level 1,True
+koeln_weiden,level_2_m,level_2_m,mNHN,measured,Sewer level 2,True
+koeln_weiden,level_3_m,level_3_m,mNHN,measured,Sewer level 3,True
+koeln_weiden,level_storage_m,level_storage_m,mNHN,measured,Storage level,True
+koeln_weiden,rain_rate_mm_min,rain_rate_mm_min,mm/min,meteorological,Rain rate; not used by the anomaly model by default,False
+aquafetch_nutrient_recovery,pH,pH,pH,measured,Experimental pH,False
+aquafetch_nutrient_recovery,temperature_C,temperature_C,°C,measured,"Experimental temperature, not plant water temperature",False
+aquafetch_nutrient_recovery,p_initial_mg_l,p_initial_mg_l,mg/L,measured,Initial phosphorus concentration,False
+aquafetch_nutrient_recovery,recovery_pct,recovery_pct,%,performance,Nitrogen or phosphorus recovery,False
+aquafetch_nutrient_recovery,stir_rpm,stir_rpm,rpm,measured,Stirring speed,False
+aquafetch_nutrient_recovery,time_min,time_min,min,measured,Reaction time,False
+aquafetch_nutrient_recovery,n_to_p,n_to_p,—,measured,Nitrogen to phosphorus ratio,False
+aquafetch_nutrient_recovery,mg_ratio,mg_ratio,—,measured,Magnesium ratio to nitrogen or phosphorus,False

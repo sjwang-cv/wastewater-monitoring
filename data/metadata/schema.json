@@ -1,0 +1,101 @@
+{
+  "metadata_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "WastewaterBenchmarkDataset",
+    "type": "object",
+    "required": [
+      "dataset_id",
+      "name",
+      "source",
+      "modality",
+      "domain",
+      "category",
+      "bundled",
+      "data_format",
+      "license",
+      "tasks"
+    ],
+    "properties": {
+      "dataset_id": {"type": "string"},
+      "name": {"type": "string"},
+      "source": {"type": "string"},
+      "citation": {"type": "string"},
+      "url": {"type": "string"},
+      "modality": {"enum": ["Time Series", "Image", "Tabular"]},
+      "domain": {"type": "string"},
+      "category": {"enum": ["A", "B", "C", "D"]},
+      "bundled": {"type": "boolean"},
+      "availability": {"type": "string"},
+      "n_samples": {"type": ["integer", "null"]},
+      "n_files": {"type": ["integer", "null"]},
+      "sampling_rate": {"type": "string"},
+      "data_format": {"type": "string"},
+      "license": {"type": "string"},
+      "label_note": {"type": "string"},
+      "tasks": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["task_id", "support", "rationale"],
+          "properties": {
+            "task_id": {"type": "string"},
+            "support": {"enum": ["full", "partial", "none"]},
+            "rationale": {"type": "string"}
+          }
+        }
+      }
+    }
+  },
+  "column_contracts": {
+    "timeseries": {
+      "description": "各时序数据集单独成表，列名对齐。缺失测项留空，不把不同采样频率和单位拼成一张物理表。",
+      "columns": [
+        "dataset_id",
+        "sample_id",
+        "timestamp",
+        "pH",
+        "DO",
+        "COD",
+        "BOD",
+        "NH4_N",
+        "TN",
+        "TP",
+        "MLSS",
+        "SS",
+        "conductivity",
+        "flow_rate",
+        "temperature",
+        "operating_status"
+      ]
+    },
+    "microscopy": {
+      "description": "显微图像统一索引。本仓库不内置 MD-AS-2025 的图像文件。",
+      "columns": [
+        "image_id",
+        "dataset_id",
+        "image_path",
+        "organism_category",
+        "bounding_boxes",
+        "segmentation_mask",
+        "magnification"
+      ]
+    },
+    "performance": {
+      "description": "处理效果记录。输入条件和进出水水质用 JSON 文本保留结构化信息。",
+      "columns": [
+        "sample_id",
+        "dataset_id",
+        "treatment_method",
+        "input_parameters",
+        "influent_quality",
+        "effluent_quality",
+        "removal_efficiency"
+      ]
+    }
+  },
+  "support_levels": {
+    "full": "变量和标签足以按该任务的定义直接开展实验",
+    "partial": "有相关变量或可构造的代理任务，但标签、工艺覆盖或现实性不完整",
+    "none": "该数据集不能支持这个任务"
+  }
+}

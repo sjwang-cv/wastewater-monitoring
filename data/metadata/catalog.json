@@ -1,0 +1,882 @@
+[
+  {
+    "dataset_id": "uci_water_treatment",
+    "name": "UCI Water Treatment Plant",
+    "category": "A",
+    "secondary_categories": [
+      "D"
+    ],
+    "modality": "Time Series",
+    "domain": "Municipal",
+    "bundled": true,
+    "availability": "Bundled and ready to process",
+    "source": "UCI Machine Learning Repository, daily monitoring at an urban wastewater treatment plant",
+    "citation": "Poch, M. (1993). Water Treatment Plant [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5FS4C",
+    "url": "https://archive.ics.uci.edu/dataset/106/water+treatment+plant",
+    "license": "CC BY 4.0",
+    "data_format": "CSV converted from the original UCI comma-separated file",
+    "sampling_rate": "1 day, with calendar gaps",
+    "time_axis": "calendar",
+    "label_note": "The data file has no fault labels. The 13 classes in the .names file are the authors' conceptual clusters, not independently confirmed equipment faults, so they are not an anomaly-detection gold standard.",
+    "description": "Daily records from about 1990–1991 at an urban plant in Spain, covering influent, primary settler, secondary settler, effluent, and the removal figures supplied in the original file.",
+    "raw_files": [
+      "data/raw/uci/extracted/water-treatment.data",
+      "data/raw/uci/extracted/water-treatment.names"
+    ],
+    "monitor": true,
+    "seasonal_mode": "none",
+    "train_frac": 0.7,
+    "n_samples": 527,
+    "n_files": 2,
+    "extra": {
+      "cluster_labeled_days": 523,
+      "cluster_unlabeled_days": 4,
+      "cluster_conflicts": [],
+      "missing_check": [
+        {
+          "feature": "Q-E",
+          "documented": 18,
+          "observed": 18,
+          "match": true
+        },
+        {
+          "feature": "ZN-E",
+          "documented": 3,
+          "observed": 3,
+          "match": true
+        },
+        {
+          "feature": "PH-E",
+          "documented": 0,
+          "observed": 0,
+          "match": true
+        },
+        {
+          "feature": "DBO-E",
+          "documented": 23,
+          "observed": 23,
+          "match": true
+        },
+        {
+          "feature": "DQO-E",
+          "documented": 6,
+          "observed": 6,
+          "match": true
+        },
+        {
+          "feature": "SS-E",
+          "documented": 1,
+          "observed": 1,
+          "match": true
+        },
+        {
+          "feature": "SSV-E",
+          "documented": 11,
+          "observed": 11,
+          "match": true
+        },
+        {
+          "feature": "SED-E",
+          "documented": 25,
+          "observed": 25,
+          "match": true
+        },
+        {
+          "feature": "COND-E",
+          "documented": 0,
+          "observed": 0,
+          "match": true
+        },
+        {
+          "feature": "PH-P",
+          "documented": 0,
+          "observed": 0,
+          "match": true
+        },
+        {
+          "feature": "DBO-P",
+          "documented": 40,
+          "observed": 40,
+          "match": true
+        },
+        {
+          "feature": "SS-P",
+          "documented": 0,
+          "observed": 0,
+          "match": true
+        },
+        {
+          "feature": "SSV-P",
+          "documented": 11,
+          "observed": 11,
+          "match": true
+        },
+        {
+          "feature": "SED-P",
+          "documented": 24,
+          "observed": 24,
+          "match": true
+        },
+        {
+          "feature": "COND-P",
+          "documented": 0,
+          "observed": 0,
+          "match": true
+        },
+        {
+          "feature": "PH-D",
+          "documented": 0,
+          "observed": 0,
+          "match": true
+        },
+        {
+          "feature": "DBO-D",
+          "documented": 28,
+          "observed": 28,
+          "match": true
+        },
+        {
+          "feature": "DQO-D",
+          "documented": 9,
+          "observed": 9,
+          "match": true
+        },
+        {
+          "feature": "SS-D",
+          "documented": 2,
+          "observed": 2,
+          "match": true
+        },
+        {
+          "feature": "SSV-D",
+          "documented": 13,
+          "observed": 13,
+          "match": true
+        },
+        {
+          "feature": "SED-D",
+          "documented": 25,
+          "observed": 25,
+          "match": true
+        },
+        {
+          "feature": "COND-D",
+          "documented": 0,
+          "observed": 0,
+          "match": true
+        },
+        {
+          "feature": "PH-S",
+          "documented": 1,
+          "observed": 1,
+          "match": true
+        },
+        {
+          "feature": "DBO-S",
+          "documented": 23,
+          "observed": 23,
+          "match": true
+        },
+        {
+          "feature": "DQO-S",
+          "documented": 18,
+          "observed": 18,
+          "match": true
+        },
+        {
+          "feature": "SS-S",
+          "documented": 5,
+          "observed": 5,
+          "match": true
+        },
+        {
+          "feature": "SSV-S",
+          "documented": 17,
+          "observed": 17,
+          "match": true
+        },
+        {
+          "feature": "SED-S",
+          "documented": 28,
+          "observed": 28,
+          "match": true
+        },
+        {
+          "feature": "COND-S",
+          "documented": 1,
+          "observed": 1,
+          "match": true
+        },
+        {
+          "feature": "RD-DBO-P",
+          "documented": 62,
+          "observed": 62,
+          "match": true
+        },
+        {
+          "feature": "RD-SS-P",
+          "documented": 4,
+          "observed": 4,
+          "match": true
+        },
+        {
+          "feature": "RD-SED-P",
+          "documented": 27,
+          "observed": 27,
+          "match": true
+        },
+        {
+          "feature": "RD-DBO-S",
+          "documented": 40,
+          "observed": 40,
+          "match": true
+        },
+        {
+          "feature": "RD-DQO-S",
+          "documented": 26,
+          "observed": 26,
+          "match": true
+        },
+        {
+          "feature": "RD-DBO-G",
+          "documented": 36,
+          "observed": 36,
+          "match": true
+        },
+        {
+          "feature": "RD-DQO-G",
+          "documented": 25,
+          "observed": 25,
+          "match": true
+        },
+        {
+          "feature": "RD-SS-G",
+          "documented": 8,
+          "observed": 8,
+          "match": true
+        },
+        {
+          "feature": "RD-SED-G",
+          "documented": 31,
+          "observed": 31,
+          "match": true
+        }
+      ],
+      "cluster_counts": {
+        "routine": 509,
+        "nonroutine": 14,
+        "unlabeled": 4
+      }
+    },
+    "sha256": {
+      "data/raw/uci/extracted/water-treatment.data": "af2e632b370646ea9763b11aed54b30423f0c3b8a7fb1b7d23e1c922098a7a8a",
+      "data/raw/uci/extracted/water-treatment.names": "bb932169a9680170fbba91b805e6fd5afd538af805cb29bbfdb3b1c308e962bb"
+    },
+    "time_min": "1990-01-01 00:00:00",
+    "time_max": "1991-10-30 00:00:00",
+    "indicators": {
+      "pH": "plant",
+      "DO": "absent",
+      "COD": "plant",
+      "BOD": "plant",
+      "NH4_N": "absent",
+      "TN": "absent",
+      "TP": "absent",
+      "MLSS": "absent",
+      "SS": "plant",
+      "flow_rate": "plant",
+      "temperature": "absent",
+      "conductivity": "plant"
+    },
+    "tasks": [
+      {
+        "task_id": "water_quality_prediction",
+        "name": "Water Quality Prediction",
+        "support": "partial",
+        "rationale": "Daily influent and effluent BOD, COD, suspended solids, and pH can support a prediction task, but there is no official forecast split and the calendar has gaps."
+      },
+      {
+        "task_id": "operating_condition_classification",
+        "name": "Operating Condition Classification",
+        "support": "partial",
+        "rationale": "The .names file lists 13 conceptual clusters. They are highly imbalanced and are not independent operating-status inspections."
+      },
+      {
+        "task_id": "anomaly_detection",
+        "name": "Anomaly Detection",
+        "support": "partial",
+        "rationale": "Suitable for unsupervised screening and for synthetic-anomaly tests reported separately. There is no fault gold standard."
+      },
+      {
+        "task_id": "treatment_efficiency_prediction",
+        "name": "Treatment Efficiency Prediction",
+        "support": "partial",
+        "rationale": "Plant-wide BOD, COD, suspended solids, and settleable solids have influent, effluent, and the removal figures recorded in the original file."
+      },
+      {
+        "task_id": "microorganism_recognition",
+        "name": "Microorganism Recognition",
+        "support": "none",
+        "rationale": "No micrographs."
+      },
+      {
+        "task_id": "process_performance_analysis",
+        "name": "Process Performance Analysis",
+        "support": "full",
+        "rationale": "The same day records stage water quality and removal, so process performance can be analyzed directly."
+      }
+    ]
+  },
+  {
+    "dataset_id": "bsm1_influent",
+    "name": "IWA BSM1 influent (dry / rain / storm)",
+    "category": "A",
+    "secondary_categories": [],
+    "modality": "Time Series",
+    "domain": "Simulation",
+    "bundled": true,
+    "availability": "Bundled and ready to process",
+    "source": "BSM1 influent files published by the IWA Modelling and Integrated Assessment specialist group",
+    "citation": "IWA Task Group on Benchmarking of Control Strategies for WWTPs. BSM1 influent files Inf_dry_2006, Inf_rain_2006 and Inf_strm_2006. https://iwa-mia.org/benchmarking/",
+    "url": "https://iwa-mia.org/benchmarking/",
+    "license": "Benchmark influent files posted by the IWA task group. Cite the technical report. This is not an open-source software license.",
+    "data_format": "TXT / CSV",
+    "sampling_rate": "15 minutes",
+    "time_axis": "simulation_day",
+    "label_note": "The file name is the influent scenario (dry, rain, or storm). Week 1 of the rain and storm files still resembles dry weather, so a file-level label is not an instantaneous weather label. These files contain neither sensor-fault labels nor effluent.",
+    "description": "Fourteen days of dynamic BSM1 influent, with ASM1 components and flow. Influent dissolved oxygen, nitrate, autotrophs, and particulate products are defined as zero by the benchmark and are not treated as measured dissolved oxygen.",
+    "raw_files": [
+      "data/raw/bsm1/Inf_dry_2006.txt",
+      "data/raw/bsm1/Inf_rain_2006.txt",
+      "data/raw/bsm1/Inf_strm_2006.txt"
+    ],
+    "monitor": true,
+    "seasonal_mode": "time_of_day",
+    "train_frac": 0.7,
+    "reference_column": "weather",
+    "reference_value": "dry",
+    "n_samples": 4035,
+    "n_files": 3,
+    "extra": {
+      "rows_by_weather": {
+        "dry": 1345,
+        "rain": 1345,
+        "storm": 1345
+      }
+    },
+    "sha256": {
+      "data/raw/bsm1/Inf_dry_2006.txt": "2a3776651012d004835870dde73857acec36202efb86ba69f589d6b4fb7601e0",
+      "data/raw/bsm1/Inf_rain_2006.txt": "c84a4e49d8c0f9bea27a427f528cd00344575c19900c8813eeffb66b0d1f5dd7",
+      "data/raw/bsm1/Inf_strm_2006.txt": "8e600c737710767da0116283bab5ba567c9b5114c5859faeb7383ed962b72c65"
+    },
+    "time_min": "2006-01-01 00:00:00",
+    "time_max": "2006-01-15 00:00:00",
+    "indicators": {
+      "pH": "absent",
+      "DO": "absent",
+      "COD": "simulated",
+      "BOD": "absent",
+      "NH4_N": "simulated",
+      "TN": "absent",
+      "TP": "absent",
+      "MLSS": "absent",
+      "SS": "absent",
+      "flow_rate": "simulated",
+      "temperature": "absent",
+      "conductivity": "absent"
+    },
+    "tasks": [
+      {
+        "task_id": "water_quality_prediction",
+        "name": "Water Quality Prediction",
+        "support": "partial",
+        "rationale": "The 15-minute simulated influent can support load forecasting. It is not measured effluent quality."
+      },
+      {
+        "task_id": "operating_condition_classification",
+        "name": "Operating Condition Classification",
+        "support": "partial",
+        "rationale": "The three influent files are explicit dry, rain, and storm scenarios, but a file-level label is not instantaneous weather and is not an in-plant control state."
+      },
+      {
+        "task_id": "anomaly_detection",
+        "name": "Anomaly Detection",
+        "support": "partial",
+        "rationale": "Dry weather can be the reference for deviation screening. The influent files have no fault labels. Faults belong to the separate BSM1_LT benchmark, which is not included."
+      },
+      {
+        "task_id": "treatment_efficiency_prediction",
+        "name": "Treatment Efficiency Prediction",
+        "support": "none",
+        "rationale": "Influent only. Removal cannot be computed without effluent."
+      },
+      {
+        "task_id": "microorganism_recognition",
+        "name": "Microorganism Recognition",
+        "support": "none",
+        "rationale": "No images."
+      },
+      {
+        "task_id": "process_performance_analysis",
+        "name": "Process Performance Analysis",
+        "support": "partial",
+        "rationale": "This is the standard influent of a control-strategy benchmark, but simulated effluent and control outputs are not in this repository."
+      }
+    ]
+  },
+  {
+    "dataset_id": "dhi_wwtp_inflow",
+    "name": "DHI Danish WWTP inflow",
+    "category": "A",
+    "secondary_categories": [],
+    "modality": "Time Series",
+    "domain": "Municipal",
+    "bundled": true,
+    "availability": "Bundled and ready to process",
+    "source": "DHI WaterBench: combined-sewer inflow to a Danish WWTP and a nearby weather station",
+    "citation": "DHI (2025). Inflow to a Waste Water Treatment Plant: observations and processed data [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15301164",
+    "url": "https://doi.org/10.5281/zenodo.15301164",
+    "license": "CC BY-NC 4.0",
+    "data_format": "CSV",
+    "sampling_rate": "1 hour",
+    "time_axis": "calendar",
+    "label_note": "No anomaly or fault labels. Air temperature, pressure, and precipitation come from a weather station, not from the wastewater.",
+    "description": "About 15 months of WWTP inflow, plus precipitation, pressure, radiation, humidity, and air temperature from the Danish Meteorological Institute. The plant location is anonymized.",
+    "raw_files": [
+      "data/raw/dhi/extracted/processed/data.csv"
+    ],
+    "monitor": true,
+    "seasonal_mode": "hour_of_week",
+    "train_frac": 0.7,
+    "n_samples": 11257,
+    "n_files": 1,
+    "extra": {},
+    "sha256": {
+      "data/raw/dhi/extracted/processed/data.csv": "2b5edb2bcbd4418810fd0db5312cdad2d1b63f0f96cdb5dcd4ce9949141f6763"
+    },
+    "time_min": "2023-11-07 00:00:00",
+    "time_max": "2025-02-18 00:00:00",
+    "indicators": {
+      "pH": "absent",
+      "DO": "absent",
+      "COD": "absent",
+      "BOD": "absent",
+      "NH4_N": "absent",
+      "TN": "absent",
+      "TP": "absent",
+      "MLSS": "absent",
+      "SS": "absent",
+      "flow_rate": "plant",
+      "temperature": "absent",
+      "conductivity": "absent"
+    },
+    "tasks": [
+      {
+        "task_id": "water_quality_prediction",
+        "name": "Water Quality Prediction",
+        "support": "partial",
+        "rationale": "Inflow can be forecast. The file has no pollutant concentrations."
+      },
+      {
+        "task_id": "operating_condition_classification",
+        "name": "Operating Condition Classification",
+        "support": "none",
+        "rationale": "No operating-condition labels."
+      },
+      {
+        "task_id": "anomaly_detection",
+        "name": "Anomaly Detection",
+        "support": "partial",
+        "rationale": "Unsupervised screening only. There are no fault labels."
+      },
+      {
+        "task_id": "treatment_efficiency_prediction",
+        "name": "Treatment Efficiency Prediction",
+        "support": "none",
+        "rationale": "No influent or effluent water quality."
+      },
+      {
+        "task_id": "microorganism_recognition",
+        "name": "Microorganism Recognition",
+        "support": "none",
+        "rationale": "No images."
+      },
+      {
+        "task_id": "process_performance_analysis",
+        "name": "Process Performance Analysis",
+        "support": "partial",
+        "rationale": "Inflow and weather drivers can be analyzed. Treatment efficiency cannot."
+      }
+    ]
+  },
+  {
+    "dataset_id": "koeln_weiden",
+    "name": "Cologne Weiden WWTP inflow and sewer levels",
+    "category": "A",
+    "secondary_categories": [],
+    "modality": "Time Series",
+    "domain": "Municipal",
+    "bundled": true,
+    "availability": "Bundled and ready to process",
+    "source": "Inflow, sewer levels, and rainfall at the Weiden WWTP in Cologne, Germany",
+    "citation": "Sonnenschein, B., & Ziel, F. (2022). Wastewater Treatment Plant Inflow Rate, Network Water Levels and Rain Rate for Koeln Weiden, Germany [Data set]. Zenodo. https://doi.org/10.5281/zenodo.6992694",
+    "url": "https://doi.org/10.5281/zenodo.6992694",
+    "license": "CC BY 4.0",
+    "data_format": "CSV",
+    "sampling_rate": "15 minutes; interactive detection uses hourly means",
+    "time_axis": "calendar",
+    "label_note": "No anomaly labels. Rainfall is a weather driver and is not sent to the detector by default, so rain events are not treated as equipment faults.",
+    "description": "Inflow, three sewer levels, a storage level, and rain rate for the Cologne Weiden wastewater system. The raw record is 15 minutes.",
+    "raw_files": [
+      "data/raw/koeln/wtp_network_rain.csv"
+    ],
+    "monitor": true,
+    "seasonal_mode": "hour_of_week",
+    "train_frac": 0.7,
+    "model_resolution": "1h",
+    "n_samples": 105120,
+    "n_files": 1,
+    "extra": {
+      "hourly_rows": 26280
+    },
+    "sha256": {
+      "data/raw/koeln/wtp_network_rain.csv": "4b3e2ecc1b15fb6d80b1777e71b2a71cf796d4b51b40bc5a4428f46e532a8575"
+    },
+    "time_min": "2017-01-01 00:00:00",
+    "time_max": "2019-12-31 23:00:00",
+    "indicators": {
+      "pH": "absent",
+      "DO": "absent",
+      "COD": "absent",
+      "BOD": "absent",
+      "NH4_N": "absent",
+      "TN": "absent",
+      "TP": "absent",
+      "MLSS": "absent",
+      "SS": "absent",
+      "flow_rate": "plant",
+      "temperature": "absent",
+      "conductivity": "absent"
+    },
+    "tasks": [
+      {
+        "task_id": "water_quality_prediction",
+        "name": "Water Quality Prediction",
+        "support": "partial",
+        "rationale": "Inflow and sewer levels can be forecast. There are no pollutant concentrations."
+      },
+      {
+        "task_id": "operating_condition_classification",
+        "name": "Operating Condition Classification",
+        "support": "none",
+        "rationale": "No operating-condition labels."
+      },
+      {
+        "task_id": "anomaly_detection",
+        "name": "Anomaly Detection",
+        "support": "partial",
+        "rationale": "The multi-sensor series supports unsupervised screening. There are no fault labels."
+      },
+      {
+        "task_id": "treatment_efficiency_prediction",
+        "name": "Treatment Efficiency Prediction",
+        "support": "none",
+        "rationale": "No removal rates."
+      },
+      {
+        "task_id": "microorganism_recognition",
+        "name": "Microorganism Recognition",
+        "support": "none",
+        "rationale": "No images."
+      },
+      {
+        "task_id": "process_performance_analysis",
+        "name": "Process Performance Analysis",
+        "support": "partial",
+        "rationale": "Rain, sewer level, and inflow can be compared hydraulically. Biochemical treatment performance cannot."
+      }
+    ]
+  },
+  {
+    "dataset_id": "aquafetch_nutrient_recovery",
+    "name": "AquaFetch nitrogen and phosphorus recovery experiments",
+    "category": "D",
+    "secondary_categories": [],
+    "modality": "Tabular",
+    "domain": "Laboratory",
+    "bundled": true,
+    "availability": "Two experiment tables are bundled. The rest of the AquaFetch collection, about 20,000 experiments, is not packaged here.",
+    "source": "Zenodo tables used by the AquaFetch wastewater submodule. The underlying experiments are from Leng et al. 2024.",
+    "citation": "Abbas, A. (2024). Experimental data for P and N recovery from wastewater [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14586314. Experiments: Leng et al., Journal of Water Process Engineering, 2024, https://doi.org/10.1016/j.jwpe.2024.104896",
+    "url": "https://doi.org/10.5281/zenodo.14586314",
+    "license": "CC BY 4.0",
+    "data_format": "CSV",
+    "sampling_rate": "One experiment per row, not a plant time series",
+    "time_axis": "experiment_index",
+    "label_note": "The targets are nitrogen or phosphorus recovery, not plant fault labels.",
+    "description": "Laboratory adsorption experiments for nitrogen and phosphorus recovery. Useful for treatment-efficiency tasks, not for municipal plant monitoring.",
+    "raw_files": [
+      "data/raw/aquafetch/N_recovery.csv",
+      "data/raw/aquafetch/P_recovery.csv"
+    ],
+    "monitor": false,
+    "seasonal_mode": "none",
+    "train_frac": 0.7,
+    "n_samples": 714,
+    "n_files": 2,
+    "extra": {
+      "n_recovery": 210,
+      "p_recovery": 504
+    },
+    "sha256": {
+      "data/raw/aquafetch/N_recovery.csv": "35f8491c04c8148938e5551976e91d445c2856d97543acd180d68be54be7dad8",
+      "data/raw/aquafetch/P_recovery.csv": "a08390b3dfc393e5485416b290efff998b3f60e7dfd2ffff4353b20b8969ac4e"
+    },
+    "time_min": null,
+    "time_max": null,
+    "indicators": {
+      "pH": "lab",
+      "DO": "absent",
+      "COD": "absent",
+      "BOD": "absent",
+      "NH4_N": "absent",
+      "TN": "absent",
+      "TP": "lab",
+      "MLSS": "absent",
+      "SS": "absent",
+      "flow_rate": "absent",
+      "temperature": "lab",
+      "conductivity": "absent"
+    },
+    "tasks": [
+      {
+        "task_id": "water_quality_prediction",
+        "name": "Water Quality Prediction",
+        "support": "none",
+        "rationale": "This is not a plant water-quality time series."
+      },
+      {
+        "task_id": "operating_condition_classification",
+        "name": "Operating Condition Classification",
+        "support": "none",
+        "rationale": "No operating-status labels."
+      },
+      {
+        "task_id": "anomaly_detection",
+        "name": "Anomaly Detection",
+        "support": "none",
+        "rationale": "Experiment tables are not plant anomaly-detection data."
+      },
+      {
+        "task_id": "treatment_efficiency_prediction",
+        "name": "Treatment Efficiency Prediction",
+        "support": "full",
+        "rationale": "Experimental conditions are paired with nitrogen and phosphorus recovery, so treatment efficiency can be predicted. The scope is laboratory recovery."
+      },
+      {
+        "task_id": "microorganism_recognition",
+        "name": "Microorganism Recognition",
+        "support": "none",
+        "rationale": "No images."
+      },
+      {
+        "task_id": "process_performance_analysis",
+        "name": "Process Performance Analysis",
+        "support": "partial",
+        "rationale": "Experiment settings and recovery can be compared. A full-scale plant cannot."
+      }
+    ]
+  },
+  {
+    "dataset_id": "mdas_2025",
+    "name": "MD-AS-2025 activated-sludge microfauna images",
+    "category": "B",
+    "secondary_categories": [],
+    "modality": "Image",
+    "domain": "Laboratory / Municipal",
+    "bundled": false,
+    "availability": "Public download. The annotated archive is about 2.0 GB, so this repository stores metadata only.",
+    "source": "Activated-sludge microfauna images published in Scientific Data. Samples come from a laboratory SBR and 12 plants in six Chinese cities.",
+    "citation": "Pang, Z. et al. (2025). Image Dataset of Microfauna in Activated Sludge. Scientific Data. https://doi.org/10.1038/s41597-025-06228-6",
+    "url": "https://doi.org/10.5281/zenodo.15210103",
+    "license": "CC BY 4.0",
+    "data_format": "JPG + PASCAL VOC XML",
+    "sampling_rate": "Still micrographs; 10x objective, 1824x1216 pixels",
+    "time_axis": "none",
+    "label_note": "The annotated set has bounding boxes for testate amoebae, bdelloid rotifers, monogonont rotifers, nematodes, and hypotrichs. There are no segmentation masks.",
+    "description": "4,000 boxed full frames and 14,257 single-object crops for microorganism recognition. The images cannot be used to predict COD.",
+    "raw_files": [],
+    "monitor": false,
+    "published_counts": {
+      "annotated_images": 4000,
+      "cropped_images": 14257,
+      "categories": [
+        "Arcellinida",
+        "Digononta",
+        "Monogononta",
+        "Nematoda",
+        "Hypotrichida"
+      ],
+      "archive_bytes": 2010927973
+    },
+    "seasonal_mode": "none",
+    "train_frac": 0.7,
+    "n_samples": null,
+    "n_files": 0,
+    "extra": {
+      "annotated_images": 4000,
+      "cropped_images": 14257,
+      "categories": [
+        "Arcellinida",
+        "Digononta",
+        "Monogononta",
+        "Nematoda",
+        "Hypotrichida"
+      ],
+      "archive_bytes": 2010927973
+    },
+    "sha256": {},
+    "indicators": {
+      "pH": "absent",
+      "DO": "absent",
+      "COD": "absent",
+      "BOD": "absent",
+      "NH4_N": "absent",
+      "TN": "absent",
+      "TP": "absent",
+      "MLSS": "absent",
+      "SS": "absent",
+      "flow_rate": "absent",
+      "temperature": "absent",
+      "conductivity": "absent"
+    },
+    "tasks": [
+      {
+        "task_id": "water_quality_prediction",
+        "name": "Water Quality Prediction",
+        "support": "none",
+        "rationale": "Images cannot directly predict COD."
+      },
+      {
+        "task_id": "operating_condition_classification",
+        "name": "Operating Condition Classification",
+        "support": "none",
+        "rationale": "No process operating-status labels."
+      },
+      {
+        "task_id": "anomaly_detection",
+        "name": "Anomaly Detection",
+        "support": "none",
+        "rationale": "No process anomaly labels."
+      },
+      {
+        "task_id": "treatment_efficiency_prediction",
+        "name": "Treatment Efficiency Prediction",
+        "support": "none",
+        "rationale": "No removal rates."
+      },
+      {
+        "task_id": "microorganism_recognition",
+        "name": "Microorganism Recognition",
+        "support": "full",
+        "rationale": "Five microfauna classes and bounding boxes support classification and detection. The images are not packaged in this repository."
+      },
+      {
+        "task_id": "process_performance_analysis",
+        "name": "Process Performance Analysis",
+        "support": "none",
+        "rationale": "No paired process water-quality table."
+      }
+    ]
+  },
+  {
+    "dataset_id": "swat_a1",
+    "name": "SWaT water-treatment testbed (A1, Dec 2015)",
+    "category": "C",
+    "secondary_categories": [],
+    "modality": "Time Series",
+    "domain": "Industrial",
+    "bundled": false,
+    "availability": "Request access from iTrust. Redistribution is not allowed, so this repository does not include the files.",
+    "source": "Secure Water Treatment testbed, iTrust, Singapore University of Technology and Design",
+    "citation": "iTrust, Centre for Research in Cyber Security, Singapore University of Technology and Design. SWaT dataset. https://www.sutd.edu.sg/itrust/itrust-labs/datasets/dataset-characteristics/swat/",
+    "url": "https://www.sutd.edu.sg/itrust/request-for-datasets/",
+    "license": "iTrust terms: credit the source and do not redistribute",
+    "data_format": "Historian and network traffic after approval",
+    "sampling_rate": "A1 is 11 days of continuous operation; the sampling interval is defined in the approved bundle",
+    "time_axis": "calendar",
+    "label_note": "A1 has normal and attack labels: 7 normal days, 4 attack days, 51 sensor and actuator channels, and 41 attacks. This is a water-treatment testbed, not a municipal wastewater plant.",
+    "description": "A water-treatment testbed widely used in industrial-control security research. It is listed to show that a public resource with real attack labels exists, but the files cannot be redistributed.",
+    "raw_files": [],
+    "monitor": false,
+    "published_counts": {
+      "normal_days": 7,
+      "attack_days": 4,
+      "channels": 51,
+      "attacks": 41
+    },
+    "seasonal_mode": "none",
+    "train_frac": 0.7,
+    "n_samples": null,
+    "n_files": 0,
+    "extra": {
+      "normal_days": 7,
+      "attack_days": 4,
+      "channels": 51,
+      "attacks": 41
+    },
+    "sha256": {},
+    "indicators": {
+      "pH": "absent",
+      "DO": "absent",
+      "COD": "absent",
+      "BOD": "absent",
+      "NH4_N": "absent",
+      "TN": "absent",
+      "TP": "absent",
+      "MLSS": "absent",
+      "SS": "absent",
+      "flow_rate": "absent",
+      "temperature": "absent",
+      "conductivity": "absent"
+    },
+    "tasks": [
+      {
+        "task_id": "water_quality_prediction",
+        "name": "Water Quality Prediction",
+        "support": "none",
+        "rationale": "The testbed is not municipal wastewater monitoring, and this repository is not licensed to use its sensor values."
+      },
+      {
+        "task_id": "operating_condition_classification",
+        "name": "Operating Condition Classification",
+        "support": "partial",
+        "rationale": "Normal versus attack can be a state classification, but the states are cyber attacks, not wastewater process conditions."
+      },
+      {
+        "task_id": "anomaly_detection",
+        "name": "Anomaly Detection",
+        "support": "full",
+        "rationale": "A1 provides normal and attack labels. The data cannot be redistributed, so only task applicability is recorded here."
+      },
+      {
+        "task_id": "treatment_efficiency_prediction",
+        "name": "Treatment Efficiency Prediction",
+        "support": "none",
+        "rationale": "No pollutant removal rates."
+      },
+      {
+        "task_id": "microorganism_recognition",
+        "name": "Microorganism Recognition",
+        "support": "none",
+        "rationale": "No micrographs."
+      },
+      {
+        "task_id": "process_performance_analysis",
+        "name": "Process Performance Analysis",
+        "support": "none",
+        "rationale": "This does not represent municipal wastewater treatment performance."
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+dataset_id,dataset_name,task_id,task_name,support,rationale,bundled
+uci_water_treatment,UCI Water Treatment Plant,water_quality_prediction,Water Quality Prediction,partial,"Daily influent and effluent BOD, COD, suspended solids, and pH can support a prediction task, but there is no official forecast split and the calendar has gaps.",True
+uci_water_treatment,UCI Water Treatment Plant,operating_condition_classification,Operating Condition Classification,partial,The .names file lists 13 conceptual clusters. They are highly imbalanced and are not independent operating-status inspections.,True
+uci_water_treatment,UCI Water Treatment Plant,anomaly_detection,Anomaly Detection,partial,Suitable for unsupervised screening and for synthetic-anomaly tests reported separately. There is no fault gold standard.,True
+uci_water_treatment,UCI Water Treatment Plant,treatment_efficiency_prediction,Treatment Efficiency Prediction,partial,"Plant-wide BOD, COD, suspended solids, and settleable solids have influent, effluent, and the removal figures recorded in the original file.",True
+uci_water_treatment,UCI Water Treatment Plant,microorganism_recognition,Microorganism Recognition,none,No micrographs.,True
+uci_water_treatment,UCI Water Treatment Plant,process_performance_analysis,Process Performance Analysis,full,"The same day records stage water quality and removal, so process performance can be analyzed directly.",True
+bsm1_influent,IWA BSM1 influent (dry / rain / storm),water_quality_prediction,Water Quality Prediction,partial,The 15-minute simulated influent can support load forecasting. It is not measured effluent quality.,True
+bsm1_influent,IWA BSM1 influent (dry / rain / storm),operating_condition_classification,Operating Condition Classification,partial,"The three influent files are explicit dry, rain, and storm scenarios, but a file-level label is not instantaneous weather and is not an in-plant control state.",True
+bsm1_influent,IWA BSM1 influent (dry / rain / storm),anomaly_detection,Anomaly Detection,partial,"Dry weather can be the reference for deviation screening. The influent files have no fault labels. Faults belong to the separate BSM1_LT benchmark, which is not included.",True
+bsm1_influent,IWA BSM1 influent (dry / rain / storm),treatment_efficiency_prediction,Treatment Efficiency Prediction,none,Influent only. Removal cannot be computed without effluent.,True
+bsm1_influent,IWA BSM1 influent (dry / rain / storm),microorganism_recognition,Microorganism Recognition,none,No images.,True
+bsm1_influent,IWA BSM1 influent (dry / rain / storm),process_performance_analysis,Process Performance Analysis,partial,"This is the standard influent of a control-strategy benchmark, but simulated effluent and control outputs are not in this repository.",True
+dhi_wwtp_inflow,DHI Danish WWTP inflow,water_quality_prediction,Water Quality Prediction,partial,Inflow can be forecast. The file has no pollutant concentrations.,True
+dhi_wwtp_inflow,DHI Danish WWTP inflow,operating_condition_classification,Operating Condition Classification,none,No operating-condition labels.,True
+dhi_wwtp_inflow,DHI Danish WWTP inflow,anomaly_detection,Anomaly Detection,partial,Unsupervised screening only. There are no fault labels.,True
+dhi_wwtp_inflow,DHI Danish WWTP inflow,treatment_efficiency_prediction,Treatment Efficiency Prediction,none,No influent or effluent water quality.,True
+dhi_wwtp_inflow,DHI Danish WWTP inflow,microorganism_recognition,Microorganism Recognition,none,No images.,True
+dhi_wwtp_inflow,DHI Danish WWTP inflow,process_performance_analysis,Process Performance Analysis,partial,Inflow and weather drivers can be analyzed. Treatment efficiency cannot.,True
+koeln_weiden,Cologne Weiden WWTP inflow and sewer levels,water_quality_prediction,Water Quality Prediction,partial,Inflow and sewer levels can be forecast. There are no pollutant concentrations.,True
+koeln_weiden,Cologne Weiden WWTP inflow and sewer levels,operating_condition_classification,Operating Condition Classification,none,No operating-condition labels.,True
+koeln_weiden,Cologne Weiden WWTP inflow and sewer levels,anomaly_detection,Anomaly Detection,partial,The multi-sensor series supports unsupervised screening. There are no fault labels.,True
+koeln_weiden,Cologne Weiden WWTP inflow and sewer levels,treatment_efficiency_prediction,Treatment Efficiency Prediction,none,No removal rates.,True
+koeln_weiden,Cologne Weiden WWTP inflow and sewer levels,microorganism_recognition,Microorganism Recognition,none,No images.,True
+koeln_weiden,Cologne Weiden WWTP inflow and sewer levels,process_performance_analysis,Process Performance Analysis,partial,"Rain, sewer level, and inflow can be compared hydraulically. Biochemical treatment performance cannot.",True
+aquafetch_nutrient_recovery,AquaFetch nitrogen and phosphorus recovery experiments,water_quality_prediction,Water Quality Prediction,none,This is not a plant water-quality time series.,True
+aquafetch_nutrient_recovery,AquaFetch nitrogen and phosphorus recovery experiments,operating_condition_classification,Operating Condition Classification,none,No operating-status labels.,True
+aquafetch_nutrient_recovery,AquaFetch nitrogen and phosphorus recovery experiments,anomaly_detection,Anomaly Detection,none,Experiment tables are not plant anomaly-detection data.,True
+aquafetch_nutrient_recovery,AquaFetch nitrogen and phosphorus recovery experiments,treatment_efficiency_prediction,Treatment Efficiency Prediction,full,"Experimental conditions are paired with nitrogen and phosphorus recovery, so treatment efficiency can be predicted. The scope is laboratory recovery.",True
+aquafetch_nutrient_recovery,AquaFetch nitrogen and phosphorus recovery experiments,microorganism_recognition,Microorganism Recognition,none,No images.,True
+aquafetch_nutrient_recovery,AquaFetch nitrogen and phosphorus recovery experiments,process_performance_analysis,Process Performance Analysis,partial,Experiment settings and recovery can be compared. A full-scale plant cannot.,True
+mdas_2025,MD-AS-2025 activated-sludge microfauna images,water_quality_prediction,Water Quality Prediction,none,Images cannot directly predict COD.,False
+mdas_2025,MD-AS-2025 activated-sludge microfauna images,operating_condition_classification,Operating Condition Classification,none,No process operating-status labels.,False
+mdas_2025,MD-AS-2025 activated-sludge microfauna images,anomaly_detection,Anomaly Detection,none,No process anomaly labels.,False
+mdas_2025,MD-AS-2025 activated-sludge microfauna images,treatment_efficiency_prediction,Treatment Efficiency Prediction,none,No removal rates.,False
+mdas_2025,MD-AS-2025 activated-sludge microfauna images,microorganism_recognition,Microorganism Recognition,full,Five microfauna classes and bounding boxes support classification and detection. The images are not packaged in this repository.,False
+mdas_2025,MD-AS-2025 activated-sludge microfauna images,process_performance_analysis,Process Performance Analysis,none,No paired process water-quality table.,False
+swat_a1,"SWaT water-treatment testbed (A1, Dec 2015)",water_quality_prediction,Water Quality Prediction,none,"The testbed is not municipal wastewater monitoring, and this repository is not licensed to use its sensor values.",False
+swat_a1,"SWaT water-treatment testbed (A1, Dec 2015)",operating_condition_classification,Operating Condition Classification,partial,"Normal versus attack can be a state classification, but the states are cyber attacks, not wastewater process conditions.",False
+swat_a1,"SWaT water-treatment testbed (A1, Dec 2015)",anomaly_detection,Anomaly Detection,full,"A1 provides normal and attack labels. The data cannot be redistributed, so only task applicability is recorded here.",False
+swat_a1,"SWaT water-treatment testbed (A1, Dec 2015)",treatment_efficiency_prediction,Treatment Efficiency Prediction,none,No pollutant removal rates.,False
+swat_a1,"SWaT water-treatment testbed (A1, Dec 2015)",microorganism_recognition,Microorganism Recognition,none,No micrographs.,False
+swat_a1,"SWaT water-treatment testbed (A1, Dec 2015)",process_performance_analysis,Process Performance Analysis,none,This does not represent municipal wastewater treatment performance.,False

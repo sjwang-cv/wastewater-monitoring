@@ -1,0 +1,528 @@
+sample_id,timestamp,score_z,flag_z,score_if,flag_if,top_variable_z,author_cluster_kind,author_cluster_name
+uci-19900101,1990-01-01,2.9049105781530837,False,-0.05826662494880458,False,SSV-S,routine,Normal situation
+uci-19900102,1990-01-02,1.1503143890833407,False,-0.13695997255796316,False,DQO-D,routine,Normal situation
+uci-19900103,1990-01-03,1.578753320107299,False,-0.12389593464205523,False,DQO-S,routine,Normal situation
+uci-19900104,1990-01-04,1.6135651988662438,False,-0.1200042775777172,False,DBO-D,routine,Normal situation
+uci-19900107,1990-01-07,1.7484181833850028,False,-0.1035542853798957,False,PH-P,routine,Normal situation
+uci-19900108,1990-01-08,1.6868007354504626,False,-0.10814732833680224,False,DQO-E,routine,Normal situation
+uci-19900109,1990-01-09,1.4939339026035872,False,-0.12072905309758358,False,SSV-D,routine,Normal situation
+uci-19900110,1990-01-10,1.197161276578181,False,-0.1254256760094461,False,DBO-D,routine,Normal situation
+uci-19900111,1990-01-11,0.990413021811451,False,-0.1280032642915051,False,PH-S,routine,Normal situation
+uci-19900112,1990-01-12,6.511691355501325,True,0.014510599980401107,True,ZN-E,routine,Normal situation
+uci-19900114,1990-01-14,1.4856195327171744,False,-0.12453258767164627,False,PH-S,routine,Normal situation
+uci-19900115,1990-01-15,1.7123998292036096,False,-0.10624035498089585,False,DQO-D,routine,Normal situation
+uci-19900116,1990-01-16,1.4756385881683354,False,-0.12135351924503995,False,Q-E,routine,Normal situation
+uci-19900117,1990-01-17,1.0624288797925527,False,-0.12461672960409664,False,SS-S,routine,Normal situation
+uci-19900118,1990-01-18,1.4856195327171744,False,-0.11780462881657061,False,PH-S,routine,Normal situation
+uci-19900119,1990-01-19,0.990413021811451,False,-0.12497854521416907,False,PH-S,routine,Normal situation
+uci-19900121,1990-01-21,1.4856195327171744,False,-0.10716040445580682,False,PH-S,routine,Normal situation
+uci-19900122,1990-01-22,1.4856195327171744,False,-0.12587521073789565,False,PH-S,routine,Normal situation
+uci-19900123,1990-01-23,1.5714524387022766,False,-0.10140822892158563,False,Q-E,routine,Normal situation
+uci-19900124,1990-01-24,2.368297308013358,False,-0.09508122868336527,False,DBO-D,routine,Normal situation
+uci-19900125,1990-01-25,1.724396011971866,False,-0.10228517165841017,False,SED-D,routine,Normal situation
+uci-19900126,1990-01-26,1.980826043622902,False,-0.11087472613468824,False,PH-S,routine,Normal situation
+uci-19900128,1990-01-28,2.8771347905314397,False,-0.045516716328573514,False,SS-E,routine,Normal situation with performance over the mean
+uci-19900129,1990-01-29,3.570927517532985,True,-0.06240827303124419,False,ZN-E,routine,Normal situation
+uci-19900130,1990-01-30,1.5615147085802359,False,-0.11543754874958684,False,DBO-D,routine,Normal situation
+uci-19900131,1990-01-31,1.3583155058818768,False,-0.13150426106938906,False,Q-E,routine,Normal situation
+uci-19900201,1990-02-01,2.5206547182585775,False,-0.12393292467024258,False,ZN-E,routine,Normal situation
+uci-19900202,1990-02-02,1.4819031159873683,False,-0.10713435407067573,False,DBO-E,routine,Normal situation
+uci-19900204,1990-02-04,1.4856195327171744,False,-0.11103159202146295,False,PH-S,routine,Normal situation
+uci-19900205,1990-02-05,2.31624681772735,False,-0.09132237966355239,False,DBO-D,routine,Normal situation
+uci-19900206,1990-02-06,2.2366923785106376,False,-0.06993442464226313,False,SS-S,routine,Normal situation
+uci-19900207,1990-02-07,0.990413021811451,False,-0.12648748500559803,False,PH-S,routine,Normal situation
+uci-19900208,1990-02-08,1.1503143890833407,False,-0.1286700791104588,False,DQO-D,routine,Normal situation
+uci-19900209,1990-02-09,1.0999693232071188,False,-0.11822372919224156,False,DBO-E,routine,Normal situation
+uci-19900211,1990-02-11,1.6690096198326507,False,-0.10957379762555902,False,PH-E,routine,Normal situation
+uci-19900212,1990-02-12,1.333318950982963,False,-0.11606504552353986,False,DQO-D,routine,Normal situation
+uci-19900213,1990-02-13,5.435052413484144,True,0.028133569124347557,True,DQO-S,routine,Normal situation
+uci-19900214,1990-02-14,1.4427651009631162,False,-0.11595347727171751,False,SED-P,routine,Normal situation
+uci-19900215,1990-02-15,1.5094642182942282,False,-0.11474914147166915,False,DBO-D,routine,Normal situation
+uci-19900216,1990-02-16,1.2624194633427268,False,-0.12381696887630145,False,SED-P,routine,Normal situation
+uci-19900218,1990-02-18,1.2317114371227615,False,-0.12506909409482225,False,SED-D,routine,Normal situation
+uci-19900219,1990-02-19,1.8885783575720085,False,-0.1088439261313564,False,SED-E,routine,Normal situation
+uci-19900221,1990-02-21,1.535489463437232,False,-0.12358955775097619,False,DBO-D,routine,Normal situation
+uci-19900222,1990-02-22,1.4856195327171744,False,-0.12156475078855306,False,PH-S,routine,Normal situation
+uci-19900223,1990-02-23,1.483152211999635,False,-0.1282466112917383,False,PH-D,routine,Normal situation
+uci-19900225,1990-02-25,1.4538500460319144,False,-0.11492948320441454,False,SS-S,routine,Normal situation
+uci-19900226,1990-02-26,1.6731845659394047,False,-0.12599104430591052,False,DQO-D,routine,Normal situation
+uci-19900227,1990-02-27,1.8045990566618244,False,-0.10530701605985754,False,SSV-D,routine,Normal situation
+uci-19900228,1990-02-28,2.3030786559451277,False,-0.0944862816501239,False,COND-S,routine,Normal situation
+uci-19900301,1990-03-01,1.980826043622902,False,-0.12143471747530954,False,PH-S,routine,Normal situation
+uci-19900302,1990-03-02,2.9451089996809805,False,-0.03844321785002475,False,COND-E,routine,Normal situation
+uci-19900304,1990-03-04,1.4703819189841703,False,-0.11444699106035333,False,ZN-E,routine,Normal situation
+uci-19900305,1990-03-05,2.3834381290950555,False,-0.0921058919657532,False,COND-E,routine,Normal situation
+uci-19900306,1990-03-06,1.8672344020724327,False,-0.10659781050013833,False,COND-D,routine,Normal situation
+uci-19900307,1990-03-07,2.352915795852288,False,-0.11457036924427044,False,DQO-D,routine,Normal situation
+uci-19900308,1990-03-08,1.8904910386939333,False,-0.10853355116520785,False,ZN-E,routine,Normal situation
+uci-19900309,1990-03-09,1.9928525516108526,False,-0.08436025080933729,False,DQO-S,routine,Normal situation
+uci-19900311,1990-03-11,1.2758885198652368,False,-0.1251944708370199,False,Q-E,routine,Normal situation
+uci-19900312,1990-03-12,2.3921310591164926,False,-0.1038276063965951,False,DQO-D,routine,Normal situation
+uci-19900313,1990-03-13,15.07129329111236,True,0.048774096025260005,True,SED-S,nonroutine,Secondary settler problems-1
+uci-19900314,1990-03-14,15.602331573610437,True,0.08181363138922199,True,DBO-S,nonroutine,Secondary settler problems-2
+uci-19900315,1990-03-15,4.752971304335104,True,-0.044880244202288755,False,SS-S,nonroutine,Secondary settler problems-3
+uci-19900316,1990-03-16,4.417467447558509,True,-0.033692718656610054,False,SS-S,routine,Normal situation
+uci-19900318,1990-03-18,1.311313637538754,False,-0.1059229307287125,False,PH-P,routine,Normal situation
+uci-19900319,1990-03-19,3.0539818323387093,True,-0.09251593118375478,False,DQO-S,routine,Normal situation
+uci-19900320,1990-03-20,2.1855227292312516,False,-0.08234020352495991,False,PH-P,routine,Normal situation
+uci-19900321,1990-03-21,3.1904945801240476,True,-0.07888329060208693,False,SS-D,routine,Normal situation
+uci-19900322,1990-03-22,2.32930817720749,False,-0.10037843837797267,False,DQO-S,routine,Normal situation
+uci-19900323,1990-03-23,1.7484181833850028,False,-0.10103008115664186,False,PH-P,routine,Normal situation
+uci-19900325,1990-03-25,2.9712390654343532,False,-0.07826751074527655,False,PH-S,routine,Normal situation
+uci-19900326,1990-03-26,1.5081280571092008,False,-0.10905285843502771,False,Q-E,routine,Normal situation
+uci-19900327,1990-03-27,1.617989449591859,False,-0.10136569167889425,False,COND-P,routine,Normal situation
+uci-19900328,1990-03-28,1.2517572148744898,False,-0.13375114856923098,False,PH-E,routine,Normal situation
+uci-19900329,1990-03-29,2.0318381290136887,False,-0.11741850608774723,False,COND-S,routine,Normal situation
+uci-19900330,1990-03-30,1.311313637538754,False,-0.12737034348623205,False,PH-P,routine,Normal situation
+uci-19900401,1990-04-01,1.058814909987433,False,-0.12026802063585196,False,COND-D,routine,Normal situation
+uci-19900402,1990-04-02,2.3421748407994736,False,-0.04477271381760334,False,Q-E,routine,Normal situation with performance over the mean
+uci-19900403,1990-04-03,2.390307387378533,False,-0.07532622919908233,False,Q-E,routine,Normal situation with performance over the mean
+uci-19900404,1990-04-04,2.0602202681936763,False,-0.11155047926826789,False,SSV-S,routine,Normal situation
+uci-19900405,1990-04-05,1.3288420729849217,False,-0.12418034987818233,False,SSV-S,routine,Normal situation
+uci-19900406,1990-04-06,2.3005101051669747,False,-0.12067977273378844,False,Q-E,routine,Normal situation
+uci-19900408,1990-04-08,2.2249587579047345,False,-0.05528564718920492,False,SSV-P,routine,Normal situation
+uci-19900409,1990-04-09,2.5988030469619567,False,-0.07828444334614276,False,DQO-E,routine,Normal situation with performance over the mean
+uci-19900410,1990-04-10,1.483152211999635,False,-0.12165048546365204,False,PH-D,routine,Normal situation
+uci-19900411,1990-04-11,1.1515721692512249,False,-0.11585947413721609,False,SED-E,routine,Normal situation
+uci-19900413,1990-04-13,2.9207668347071367,False,-0.07283615435775931,False,PH-E,routine,Normal situation
+uci-19900416,1990-04-16,1.7484181833850028,False,-0.0855279871875157,False,PH-P,routine,Normal situation
+uci-19900417,1990-04-17,1.6690096198326507,False,-0.08509407202769553,False,PH-E,routine,Normal situation
+uci-19900418,1990-04-18,1.1515721692512249,False,-0.12191984489908336,False,SED-E,routine,Normal situation
+uci-19900419,1990-04-19,1.7340405319211316,False,-0.1133167306214346,False,DQO-S,routine,Normal situation
+uci-19900420,1990-04-20,1.9752184891603246,False,-0.12182142307081045,False,SSV-P,routine,Normal situation
+uci-19900422,1990-04-22,5.6714731160818,True,0.007802066865814028,True,ZN-E,routine,Normal situation with performance over the mean
+uci-19900423,1990-04-23,1.617272910532036,False,-0.09307822451713876,False,SSV-S,routine,Normal situation with performance over the mean
+uci-19900424,1990-04-24,2.6565405356439586,False,-0.10621832573785828,False,Q-E,routine,Normal situation with performance over the mean
+uci-19900425,1990-04-25,2.490208328927227,False,-0.08701899637100885,False,DBO-E,routine,Normal situation with performance over the mean
+uci-19900426,1990-04-26,2.684030854212765,False,-0.046012386797491145,False,SS-S,routine,Normal situation with performance over the mean
+uci-19900427,1990-04-27,5.228002797732366,True,-0.033044992637613124,False,DQO-S,routine,Normal situation
+uci-19900429,1990-04-29,6.434448998211294,True,0.021414398762501452,True,SED-S,nonroutine,Secondary settler problems-4
+uci-19900501,1990-05-01,2.116026851760761,False,-0.07442867837298855,False,SED-S,routine,Normal situation
+uci-19900502,1990-05-02,1.4931011294657204,False,-0.07994615316797254,False,DQO-E,routine,Normal situation
+uci-19900503,1990-05-03,1.8034563762038953,False,-0.1017968206067465,False,SED-P,routine,Normal situation
+uci-19900504,1990-05-04,1.2860981176436166,False,-0.12849821039433207,False,SS-S,routine,Normal situation
+uci-19900506,1990-05-06,2.795865473138297,False,-0.06614152964417996,False,SS-S,routine,Normal situation
+uci-19900507,1990-05-07,4.085963487451617,True,0.009230874096994135,True,DBO-D,routine,Normal situation with performance over the mean
+uci-19900508,1990-05-08,1.2289548006127358,False,-0.1028789069974626,False,SSV-D,routine,Normal situation
+uci-19900509,1990-05-09,2.4443762737935972,False,-0.06604877226433842,False,DBO-E,routine,Normal situation
+uci-19900510,1990-05-10,0.8742090916925014,False,-0.12594339364846846,False,PH-P,routine,Normal situation
+uci-19900511,1990-05-11,1.983802013824285,False,-0.12188495260665555,False,SED-P,routine,Normal situation
+uci-19900513,1990-05-13,1.3902390057201086,False,-0.10280643556441388,False,DBO-E,routine,Normal situation
+uci-19900514,1990-05-14,2.9561074490946275,False,-0.08686369249026538,False,SED-D,routine,Normal situation
+uci-19900515,1990-05-15,5.423840786210881,True,-0.07473554567152968,False,SS-D,routine,Normal situation
+uci-19900516,1990-05-16,0.9738664431501035,False,-0.12941246892597752,False,SED-P,routine,Normal situation
+uci-19900517,1990-05-17,4.187818886217388,True,-0.07864549041719915,False,SED-D,routine,Normal situation
+uci-19900518,1990-05-18,3.651287058979186,True,-0.050352820791246256,False,DBO-E,routine,Normal situation
+uci-19900520,1990-05-20,0.9719348108399919,False,-0.1252490968861314,False,COND-E,routine,Normal situation
+uci-19900521,1990-05-21,2.0624424810133477,False,-0.10929162688687588,False,DBO-E,routine,Normal situation with performance over the mean
+uci-19900522,1990-05-22,2.6487604260770636,False,-0.06713629568047819,False,SSV-P,routine,Normal situation with performance over the mean
+uci-19900523,1990-05-23,2.4467660372223645,False,-0.08316356439323025,False,SSV-E,routine,Normal situation with performance over the mean
+uci-19900524,1990-05-24,1.2680201920304286,False,-0.12417256004601851,False,DBO-E,routine,Normal situation
+uci-19900525,1990-05-25,2.0862620247908117,False,-0.1100445975748377,False,PH-E,routine,Normal situation
+uci-19900527,1990-05-27,1.735225636946648,False,-0.07195636080871354,False,DQO-E,routine,Normal situation with performance over the mean
+uci-19900528,1990-05-28,1.5060094993981015,False,-0.09070952317611797,False,SSV-P,routine,Normal situation with performance over the mean
+uci-19900529,1990-05-29,1.2662620105494247,False,-0.087106955359597,False,Q-E,routine,Normal situation
+uci-19900530,1990-05-30,2.9940876400531846,False,-0.07238690463301961,False,SED-E,routine,Normal situation with performance over the mean
+uci-19900601,1990-06-01,0.9848618011461091,False,-0.12645034178664416,False,SSV-E,routine,Normal situation
+uci-19900603,1990-06-03,1.0133835089410779,False,-0.1307184647599579,False,SED-E,routine,Normal situation
+uci-19900604,1990-06-04,2.503514429748976,False,-0.09256188997166453,False,PH-E,routine,Normal situation
+uci-19900605,1990-06-05,11.001083894843761,True,0.08070696238971747,True,SED-P,nonroutine,Solids overload-1
+uci-19900606,1990-06-06,1.1124793789523666,False,-0.13469326179218943,False,SSV-P,routine,Normal situation
+uci-19900607,1990-06-07,1.7081593299521594,False,-0.11749486996575842,False,DQO-S,routine,Normal situation
+uci-19900608,1990-06-08,2.9561074490946275,False,-0.009137683869067603,False,SED-D,routine,Normal situation
+uci-19900610,1990-06-10,1.9770094921483405,False,-0.09269980146851403,False,DBO-P,routine,Normal situation with performance over the mean
+uci-19900611,1990-06-11,4.548627662415674,True,-0.025225335605240262,False,SS-P,routine,Normal situation with performance over the mean
+uci-19900612,1990-06-12,3.5761624380371506,True,-0.0342626997213446,False,SS-P,routine,Normal situation with performance over the mean
+uci-19900613,1990-06-13,2.692374768912543,False,-0.0886453971324373,False,DBO-P,routine,Normal situation with performance over the mean
+uci-19900614,1990-06-14,3.223883552189216,True,-0.02753215893766342,False,SSV-E,routine,Normal situation with performance over the mean
+uci-19900615,1990-06-15,1.5670315859114063,False,-0.11268829808940262,False,SSV-D,routine,Normal situation with performance over the mean
+uci-19900617,1990-06-17,3.1904945801240476,True,-0.0568505936869953,False,SS-D,routine,Normal situation with performance over the mean
+uci-19900618,1990-06-18,2.0903924574850077,False,-0.0692949849889336,False,COND-E,routine,Normal situation with performance over the mean
+uci-19900619,1990-06-19,2.016029416335479,False,-0.10287111420398198,False,DBO-P,routine,Normal situation with performance over the mean
+uci-19900620,1990-06-20,1.983802013824285,False,-0.09089558331988168,False,SED-P,routine,Normal situation with performance over the mean
+uci-19900621,1990-06-21,2.730709278113459,False,-0.09441733760587095,False,ZN-E,routine,Normal situation with performance over the mean
+uci-19900622,1990-06-22,2.730709278113459,False,-0.10466428741236117,False,ZN-E,routine,Normal situation with performance over the mean
+uci-19900624,1990-06-24,1.7484181833850028,False,-0.1189996722762347,False,PH-P,routine,Normal situation
+uci-19900625,1990-06-25,0.990413021811451,False,-0.13561951790499865,False,PH-S,routine,Normal situation
+uci-19900626,1990-06-26,8.061005184758574,True,0.024722819653155648,True,SED-E,routine,Normal situation with performance over the mean
+uci-19900627,1990-06-27,1.530482744257496,False,-0.1266871071499111,False,SSV-D,routine,Normal situation with performance over the mean
+uci-19900628,1990-06-28,1.4856195327171744,False,-0.12475836691328201,False,PH-S,routine,Normal situation
+uci-19900629,1990-06-29,1.3700464783487942,False,-0.13108684581981034,False,SSV-S,routine,Normal situation
+uci-19900701,1990-07-01,2.6226272750775044,False,-0.06378002356305063,False,PH-P,routine,Normal situation with performance over the mean
+uci-19900702,1990-07-02,2.407858601729226,False,-0.0864339486794184,False,COND-E,routine,Normal situation
+uci-19900703,1990-07-03,2.8468661439379708,False,-0.06691084081114623,False,SSV-E,routine,Normal situation with performance over the mean
+uci-19900704,1990-07-04,1.9808260436228977,False,-0.11065413448062189,False,PH-S,routine,Normal situation
+uci-19900705,1990-07-05,3.090330402290514,True,-0.11330093233614258,False,SSV-S,routine,Normal situation
+uci-19900706,1990-07-06,1.8217672585091305,False,-0.10355920420777331,False,COND-E,routine,Normal situation
+uci-19900708,1990-07-08,3.0428255475763253,True,-0.048502516323439104,False,COND-S,routine,Normal situation
+uci-19900709,1990-07-09,1.951893385725295,False,-0.1020305631887985,False,DBO-D,routine,Normal situation with performance over the mean
+uci-19900710,1990-07-10,4.621200316807393,True,-0.0797463956514422,False,ZN-E,routine,Normal situation with performance over the mean
+uci-19900711,1990-07-11,1.377267675040262,False,-0.11610522991184796,False,SSV-E,routine,Normal situation with performance over the mean
+uci-19900712,1990-07-12,1.0961342368369,False,-0.12368190861601813,False,COND-P,routine,Normal situation
+uci-19900713,1990-07-13,1.311313637538754,False,-0.12857795577047898,False,PH-P,routine,Normal situation
+uci-19900715,1990-07-15,1.276197832049619,False,-0.11949839596510992,False,SS-D,routine,Normal situation
+uci-19900716,1990-07-16,1.9992535319699112,False,-0.10603469724189052,False,COND-P,routine,Normal situation with performance over the mean
+uci-19900717,1990-07-17,2.750394058038558,False,-0.09220372591863996,False,SSV-S,routine,Normal situation with performance over the mean
+uci-19900718,1990-07-18,3.059593534941164,True,-0.009254101423214312,False,COND-D,routine,Normal situation with performance over the mean
+uci-19900719,1990-07-19,3.448792023943732,True,-0.060505143321512744,False,SED-D,routine,Normal situation
+uci-19900720,1990-07-20,3.6951343113682844,True,-0.022107655522620784,False,SED-D,routine,Normal situation with performance over the mean
+uci-19900722,1990-07-22,2.820901480086966,False,-0.07984165583478742,False,COND-S,routine,Normal situation with performance over the mean
+uci-19900723,1990-07-23,2.2916027566814976,False,-0.08769166955630114,False,DBO-E,routine,Normal situation
+uci-19900724,1990-07-24,3.412698993391924,True,0.006835294027799976,True,COND-S,routine,Normal situation with performance over the mean
+uci-19900725,1990-07-25,5.982177337732589,True,0.050676428966557274,True,SS-D,routine,Normal situation with performance over the mean
+uci-19900726,1990-07-26,2.0446149555487967,False,-0.07409091510230364,False,DQO-S,routine,Normal situation
+uci-19900727,1990-07-27,1.4157388391475318,False,-0.09430183345512011,False,SSV-E,routine,Normal situation with performance over the mean
+uci-19900729,1990-07-29,2.503514429748976,False,-0.042296579884597396,False,PH-E,routine,Normal situation with performance over the mean
+uci-19900730,1990-07-30,2.476032554528621,False,-0.1038049262322478,False,PH-S,routine,Normal situation with performance over the mean
+uci-19900731,1990-07-31,1.7484181833850028,False,-0.08892707280587264,False,PH-P,routine,Normal situation with performance over the mean
+uci-19900801,1990-08-01,1.9775362826661786,False,-0.05959091381920334,False,PH-D,routine,Normal situation with performance over the mean
+uci-19900802,1990-08-02,4.149702379051233,True,-0.03628944888090063,False,Q-E,routine,Normal situation with performance over the mean
+uci-19900803,1990-08-03,2.751301486721483,False,-0.03398306364800685,False,Q-E,routine,Normal situation with performance over the mean
+uci-19900805,1990-08-05,2.802043962241518,False,0.0017378914177346716,True,COND-D,routine,Normal situation with performance over the mean
+uci-19900806,1990-08-06,3.4162393727255655,True,0.01654297402670707,True,SSV-E,routine,Normal situation with performance over the mean
+uci-19900807,1990-08-07,3.0084450331885044,True,-0.012734865771502457,False,SSV-E,routine,Normal situation with performance over the mean
+uci-19900808,1990-08-08,2.352915795852288,False,-0.008219337296879015,False,DQO-D,routine,Normal situation with low influent
+uci-19900809,1990-08-09,2.339844041430886,False,-0.04418330619462907,False,DQO-D,routine,Normal situation with low influent
+uci-19900810,1990-08-10,3.2956806432491725,True,-0.003670211167239923,False,COND-D,routine,Normal situation with low influent
+uci-19900812,1990-08-12,5.543484332965533,True,0.08815391480144258,True,SS-D,nonroutine,Storm-2
+uci-19900813,1990-08-13,2.6638961999403614,False,-0.012084395524636249,False,SSV-P,routine,Normal situation with low influent
+uci-19900815,1990-08-15,2.0851370946140273,False,-0.06938096651461412,False,SSV-E,routine,Normal situation with low influent
+uci-19900816,1990-08-16,1.5122083234305412,False,-0.0843422203776375,False,SSV-D,routine,Normal situation with performance over the mean
+uci-19900817,1990-08-17,1.9808260436228977,False,-0.10124854287420176,False,PH-S,routine,Normal situation
+uci-19900819,1990-08-19,2.1861205920123306,False,-0.04099439488123813,False,DBO-D,routine,Normal situation with low influent
+uci-19900820,1990-08-20,2.21708058682097,False,-0.060038905276918575,False,SED-D,routine,Normal situation with low influent
+uci-19900821,1990-08-21,2.1855227292312516,False,-0.08273375182064163,False,PH-P,routine,Normal situation
+uci-19900822,1990-08-22,1.9263059507610873,False,-0.08907758789958087,False,SSV-S,routine,Normal situation
+uci-19900823,1990-08-23,2.16323128160336,False,-0.06260473993128879,False,SSV-S,routine,Normal situation
+uci-19900824,1990-08-24,2.6226272750775044,False,-0.04768274874408107,False,PH-P,routine,Normal situation
+uci-19900825,1990-08-25,1.695786039944308,False,-0.0930022628685443,False,DBO-E,routine,Normal situation
+uci-19900827,1990-08-27,1.6395904440092477,False,-0.10219645684331946,False,DBO-D,routine,Normal situation with low influent
+uci-19900828,1990-08-28,1.3012622571501966,False,-0.10827069874439327,False,DBO-D,routine,Normal situation with performance over the mean
+uci-19900829,1990-08-29,2.452004629793848,False,-0.07695380794696022,False,COND-P,routine,Normal situation
+uci-19900830,1990-08-30,0.9889593154341495,False,-0.12155638660526896,False,DBO-D,routine,Normal situation
+uci-19900831,1990-08-31,2.9712390654343532,False,-0.07556243248813882,False,PH-S,routine,Normal situation with performance over the mean
+uci-19900902,1990-09-02,1.7646868468892158,False,-0.05099844192773406,False,DQO-D,routine,Normal situation with performance over the mean
+uci-19900903,1990-09-03,2.5782116954112904,False,-0.08082212732147853,False,SS-E,routine,Normal situation with performance over the mean
+uci-19900904,1990-09-04,1.483152211999635,False,-0.10865122940961813,False,PH-D,routine,Normal situation
+uci-19900905,1990-09-05,3.0754520204521265,True,-0.06593248422307951,False,SS-S,routine,Normal situation
+uci-19900906,1990-09-06,1.311313637538754,False,-0.12063602768357645,False,PH-P,routine,Normal situation with performance over the mean
+uci-19900907,1990-09-07,1.3202471965615616,False,-0.1126112716587288,False,DQO-D,routine,Normal situation with performance over the mean
+uci-19900909,1990-09-09,2.100545598548815,False,-0.07374988228527479,False,ZN-E,routine,Normal situation with performance over the mean
+uci-19900911,1990-09-11,1.5615147085802359,False,-0.09440212348855076,False,DBO-D,routine,Normal situation with performance over the mean
+uci-19900912,1990-09-12,2.3177478017178856,False,-0.08972411218739934,False,SSV-S,routine,Normal situation with performance over the mean
+uci-19900913,1990-09-13,3.286019809995837,True,-0.05518996800544229,False,COND-P,routine,Normal situation with performance over the mean
+uci-19900914,1990-09-14,6.125104262706315,True,0.07105783879700095,True,COND-S,nonroutine,Storm-1
+uci-19900916,1990-09-16,4.501572893494132,True,0.0013507899956617386,True,SS-P,routine,Normal situation with performance over the mean
+uci-19900917,1990-09-17,1.8572394340154448,False,-0.09401032075795046,False,Q-E,routine,Normal situation with performance over the mean
+uci-19900918,1990-09-18,3.348787616539537,True,-0.05328668252535246,False,SSV-D,routine,Normal situation with performance over the mean
+uci-19900919,1990-09-19,1.535489463437232,False,-0.12035701100491047,False,DBO-D,routine,Normal situation with performance over the mean
+uci-19900920,1990-09-20,1.6690096198326507,False,-0.12061641883818935,False,PH-E,routine,Normal situation with performance over the mean
+uci-19900921,1990-09-21,1.4509647407755775,False,-0.09725317773629155,False,DQO-D,routine,Normal situation with performance over the mean
+uci-19900923,1990-09-23,2.9561074490946275,False,-0.10960228444970821,False,SED-D,routine,Normal situation
+uci-19900924,1990-09-24,4.342099500824635,True,-0.07778963869444361,False,DQO-E,routine,Normal situation with performance over the mean
+uci-19900925,1990-09-25,3.003395699429309,True,-0.08536079049707335,False,Q-E,routine,Normal situation with performance over the mean
+uci-19900926,1990-09-26,1.3766660392651433,False,-0.11517279739590064,False,Q-E,routine,Normal situation with performance over the mean
+uci-19900927,1990-09-27,1.9782060545178979,False,-0.09556042141884707,False,SSV-D,routine,Normal situation with performance over the mean
+uci-19900928,1990-09-28,3.758228520957656,True,-0.055889406461901214,False,DBO-E,routine,Normal situation
+uci-19900930,1990-09-30,1.2307918207622008,False,-0.09289841254548237,False,COND-E,routine,Normal situation
+uci-19901001,1990-10-01,1.501810660370699,False,-0.10645271044728782,False,Q-E,routine,Normal situation with performance over the mean
+uci-19901002,1990-10-02,2.9518655643114773,False,-0.04687312380176706,False,SS-E,routine,Normal situation with performance over the mean
+uci-19901003,1990-10-03,5.419530323340151,True,0.013654935165869075,True,SED-D,routine,Normal situation with performance over the mean
+uci-19901004,1990-10-04,2.105706228646179,False,-0.07430764006933105,False,COND-D,routine,Normal situation with performance over the mean
+uci-19901005,1990-10-05,1.8064692147519805,False,-0.11626693501943525,False,ZN-E,routine,Normal situation with performance over the mean
+uci-19901007,1990-10-07,3.595492297703432,True,-0.01589763677563355,False,SSV-D,routine,Normal situation with low influent
+uci-19901008,1990-10-08,1.5703314392946024,False,-0.07716759246758614,False,COND-P,routine,Normal situation with low influent
+uci-19901009,1990-10-09,1.5582898745434184,False,-0.09805180530628155,False,DBO-E,routine,Normal situation with low influent
+uci-19901010,1990-10-10,1.1868349700206937,False,-0.10397697500881242,False,COND-E,routine,Normal situation
+uci-19901012,1990-10-12,2.1861205920123306,False,-0.04079711033328809,False,DBO-D,routine,Normal situation with low influent
+uci-19901014,1990-10-14,2.235338990990139,False,-0.051259560691078954,False,SSV-S,routine,Normal situation with low influent
+uci-19901015,1990-10-15,2.3123928276036803,False,-0.05324027188378444,False,Q-E,routine,Normal situation with low influent
+uci-19901016,1990-10-16,2.1989805147267703,False,-0.06788042551709739,False,Q-E,routine,Normal situation with low influent
+uci-19901017,1990-10-17,1.7830852294420805,False,-0.08775631455794852,False,Q-E,routine,Normal situation with low influent
+uci-19901018,1990-10-18,1.7484181833850028,False,-0.08045280240629493,False,PH-P,routine,Normal situation
+uci-19901019,1990-10-19,1.9775362826661786,False,-0.08000441984349449,False,PH-D,routine,Normal situation
+uci-19901021,1990-10-21,1.8562878906871119,False,-0.08848508091293006,False,DQO-E,routine,Normal situation with low influent
+uci-19901022,1990-10-22,6.932735954440441,True,0.045247002168523454,True,SS-P,nonroutine,Storm-3
+uci-19901023,1990-10-23,3.6085951932619147,True,-0.0025086099919431892,False,SSV-E,routine,Normal situation with low influent
+uci-19901024,1990-10-24,2.4006006402936406,False,-0.062233717038810143,False,SSV-E,routine,Normal situation with performance over the mean
+uci-19901025,1990-10-25,1.914245581623555,False,-0.07657476954694042,False,SSV-D,routine,Normal situation with performance over the mean
+uci-19901026,1990-10-26,2.8721421217074767,False,-0.06115455287124777,False,DBO-E,routine,Normal situation with low influent
+uci-19901028,1990-10-28,1.8778877651026402,False,-0.08546939724953889,False,ZN-E,routine,Normal situation with low influent
+uci-19901029,1990-10-29,1.4834601269874326,False,-0.1094837023201285,False,Q-E,routine,Normal situation
+uci-19901030,1990-10-30,2.0602202681936763,False,-0.11643887561910465,False,SSV-S,routine,Normal situation
+uci-19901101,1990-11-01,1.8692608822604286,False,-0.08877988634065209,False,DQO-D,routine,Normal situation with low influent
+uci-19901102,1990-11-02,2.7727201900844354,False,-0.09706436955180092,False,ZN-E,routine,Normal situation with performance over the mean
+uci-19901104,1990-11-04,1.1905352905727171,False,-0.10420703019309008,False,DQO-S,routine,Normal situation with low influent
+uci-19901105,1990-11-05,2.3001828210688124,False,-0.09787193387002935,False,DQO-E,routine,Normal situation with performance over the mean
+uci-19901106,1990-11-06,1.1351830397473126,False,-0.11983600091473323,False,SSV-P,routine,Normal situation
+uci-19901107,1990-11-07,1.9775362826661786,False,-0.10828089915256633,False,PH-D,routine,Normal situation
+uci-19901108,1990-11-08,1.7484181833850028,False,-0.09953476648959658,False,PH-P,routine,Normal situation
+uci-19901109,1990-11-09,1.9373790545020808,False,-0.06888524399798218,False,SSV-P,routine,Normal situation with performance over the mean
+uci-19901111,1990-11-11,1.5555387761467903,False,-0.09533884210389043,False,DQO-D,routine,Normal situation with low influent
+uci-19901112,1990-11-12,1.7484181833850028,False,-0.08335136255973336,False,PH-P,routine,Normal situation with performance over the mean
+uci-19901113,1990-11-13,1.756161086199419,False,-0.09299352741399691,False,Q-E,routine,Normal situation with performance over the mean
+uci-19901114,1990-11-14,1.9775362826661786,False,-0.09017492742230587,False,PH-D,routine,Normal situation
+uci-19901115,1990-11-15,3.357506825441722,True,-0.004149731294025905,False,COND-P,routine,Normal situation
+uci-19901116,1990-11-16,3.6533027060719294,True,-0.015275521170883655,False,COND-E,routine,Normal situation
+uci-19901118,1990-11-18,1.4756594817766318,False,-0.11149908037673467,False,SSV-D,routine,Normal situation
+uci-19901119,1990-11-19,2.274485269323878,False,-0.06122527234593289,False,DQO-D,routine,Normal situation with low influent
+uci-19901120,1990-11-20,1.454129356415818,False,-0.09218459239947813,False,Q-E,routine,Normal situation
+uci-19901121,1990-11-21,2.688698366142483,False,-0.09285653898020557,False,ZN-E,routine,Normal situation
+uci-19901122,1990-11-22,1.9775362826661786,False,-0.10248666971928322,False,PH-D,routine,Normal situation
+uci-19901123,1990-11-23,3.262575143925199,True,-0.053123520997024,False,COND-E,routine,Normal situation
+uci-19901125,1990-11-25,2.463422874245523,False,-0.09055169666122814,False,SED-D,routine,Normal situation
+uci-19901126,1990-11-26,2.471920353332731,False,-0.08839482501921625,False,PH-D,routine,Normal situation
+uci-19901127,1990-11-27,1.4414945629388147,False,-0.10810931538802149,False,Q-E,routine,Normal situation
+uci-19901128,1990-11-28,2.070740547415796,False,-0.07525962456538565,False,COND-P,routine,Normal situation
+uci-19901129,1990-11-29,2.7440777514505132,False,-0.036228590812386996,False,DQO-E,routine,Normal situation
+uci-19901130,1990-11-30,2.797274525710043,False,-0.013303452268756455,False,COND-D,routine,Normal situation
+uci-19901202,1990-12-02,2.8232861352924874,False,0.011840041574982363,True,SS-P,routine,Normal situation
+uci-19901203,1990-12-03,1.483152211999635,False,-0.10869643509718979,False,PH-D,routine,Normal situation
+uci-19901204,1990-12-04,1.925868140582291,False,-0.0768129610595416,False,DBO-D,routine,Normal situation
+uci-19901206,1990-12-06,1.6648500986512342,False,-0.09544615688136282,False,DBO-P,routine,Normal situation
+uci-19901207,1990-12-07,2.0862620247908117,False,-0.09593538354948489,False,PH-E,routine,Normal situation with performance over the mean
+uci-19901209,1990-12-09,2.776361019114637,False,-0.07176002878428073,False,DQO-E,routine,Normal situation
+uci-19901210,1990-12-10,3.338019239665294,True,-0.03183794115349936,False,PH-E,routine,Normal situation
+uci-19901211,1990-12-11,3.448792023943732,True,-0.039569586919178834,False,SED-D,routine,Normal situation
+uci-19901212,1990-12-12,2.1200825475011813,False,-0.031392759643914525,False,DBO-P,routine,Normal situation
+uci-19901213,1990-12-13,2.0166104258797177,False,-0.05255145207455114,False,DBO-E,routine,Normal situation
+uci-19901214,1990-12-14,2.4712618651854257,False,-0.1012562578480547,False,DBO-P,routine,Normal situation
+uci-19901216,1990-12-16,1.9775362826661786,False,-0.12310457014193421,False,PH-D,routine,Normal situation
+uci-19901217,1990-12-17,1.483152211999635,False,-0.1055131921084898,False,PH-D,routine,Normal situation
+uci-19901218,1990-12-18,1.9775362826661786,False,-0.10938522187970873,False,PH-D,routine,Normal situation
+uci-19901219,1990-12-19,7.015822299153041,True,-0.05156079846932654,False,ZN-E,routine,Normal situation
+uci-19901220,1990-12-20,2.471920353332731,False,-0.08335351114188388,False,PH-D,routine,Normal situation
+uci-19901221,1990-12-21,2.3802153754154363,False,-0.09241164763515902,False,DBO-P,routine,Normal situation
+uci-19901223,1990-12-23,1.384036335460062,False,-0.10752167041174093,False,Q-E,routine,Normal situation
+uci-19901224,1990-12-24,1.2517572148744898,False,-0.12562359583173083,False,PH-E,routine,Normal situation
+uci-19901226,1990-12-26,1.483152211999635,False,-0.09356336826912848,False,PH-D,routine,Normal situation
+uci-19901227,1990-12-27,0.9535537533877437,False,-0.12321883036414155,False,SSV-P,routine,Normal situation
+uci-19901228,1990-12-28,1.6346635772361318,False,-0.0909702473352964,False,SSV-P,routine,Normal situation
+uci-19901230,1990-12-30,2.575314996351128,False,-0.09792321533011111,False,DBO-P,routine,Normal situation
+uci-19910101,1991-01-01,1.483152211999635,False,-0.112899215781396,False,PH-D,routine,Normal situation
+uci-19910102,1991-01-02,1.6135651988662438,False,-0.09776852752707549,False,DBO-D,routine,Normal situation
+uci-19910103,1991-01-03,1.483152211999635,False,-0.1039251262938195,False,PH-D,routine,Normal situation
+uci-19910104,1991-01-04,2.0862620247908117,False,-0.0958664024862505,False,PH-E,routine,Normal situation
+uci-19910106,1991-01-06,1.503960795781383,False,-0.10292842362439014,False,SSV-S,routine,Normal situation
+uci-19910107,1991-01-07,1.6690096198326507,False,-0.09777466371053539,False,PH-E,routine,Normal situation
+uci-19910108,1991-01-08,2.096377359486741,False,-0.10374060646751626,False,DQO-S,routine,Normal situation
+uci-19910109,1991-01-09,2.344493289065064,False,-0.0989335341189368,False,SED-P,routine,Normal situation with performance over the mean
+uci-19910110,1991-01-10,0.9887681413330915,False,-0.1114456707312309,False,PH-D,routine,Normal situation
+uci-19910111,1991-01-11,1.6908633814426597,False,-0.10964237486319484,False,DBO-P,routine,Normal situation
+uci-19910113,1991-01-13,1.83756533979702,False,-0.11461096892082018,False,DQO-S,routine,Normal situation
+uci-19910114,1991-01-14,1.6690096198326507,False,-0.07499387226654647,False,PH-E,routine,Normal situation
+uci-19910115,1991-01-15,1.9775362826661786,False,-0.08936338133702454,False,PH-D,routine,Normal situation
+uci-19910116,1991-01-16,3.5365371880886562,True,-0.013431978556420365,False,COND-D,routine,Normal situation
+uci-19910117,1991-01-17,2.21708058682097,False,-0.07689969469908697,False,SED-D,routine,Normal situation
+uci-19910118,1991-01-18,1.9775362826661786,False,-0.11148558072276388,False,PH-D,routine,Normal situation
+uci-19910120,1991-01-20,1.2517572148744898,False,-0.12790346593152563,False,PH-E,routine,Normal situation
+uci-19910121,1991-01-21,4.202849347115099,True,-0.07874934845757686,False,SSV-S,routine,Normal situation
+uci-19910122,1991-01-22,2.1145540320001013,False,-0.08709282397498597,False,DQO-E,routine,Normal situation
+uci-19910123,1991-01-23,2.3527121635263377,False,-0.07055966052257412,False,DBO-E,routine,Normal situation
+uci-19910124,1991-01-24,1.9775362826661786,False,-0.10982600017594563,False,PH-D,routine,Normal situation
+uci-19910125,1991-01-25,4.006045549879532,True,-0.04987802084913673,False,DBO-P,routine,Normal situation
+uci-19910127,1991-01-27,1.940223667323668,False,-0.11178829659959888,False,DBO-E,routine,Normal situation
+uci-19910128,1991-01-28,2.169383942991818,False,-0.0684511018706705,False,DBO-E,routine,Normal situation
+uci-19910129,1991-01-29,6.651241760462912,True,-0.0583044913279579,False,SED-D,routine,Normal situation
+uci-19910130,1991-01-30,1.9775362826661786,False,-0.09034760263280567,False,PH-D,routine,Normal situation
+uci-19910131,1991-01-31,7.882953197585674,True,-0.02218494671457122,False,SED-D,routine,Normal situation
+uci-19910201,1991-02-01,2.6226272750775004,False,-0.0779207984045488,False,PH-P,routine,Normal situation
+uci-19910203,1991-02-03,1.7484181833850028,False,-0.10597048779480728,False,PH-P,routine,Normal situation
+uci-19910204,1991-02-04,1.6656156891522518,False,-0.10162181059016334,False,DBO-D,routine,Normal situation
+uci-19910205,1991-02-05,1.3801096926412875,False,-0.13228547611520092,False,DQO-E,routine,Normal situation
+uci-19910206,1991-02-06,1.9194491490458132,False,-0.1106799372931655,False,COND-E,routine,Normal situation
+uci-19910207,1991-02-07,3.570927517532985,True,-0.028243708669146828,False,ZN-E,routine,Normal situation
+uci-19910208,1991-02-08,2.0862620247908117,False,-0.10604989090904032,False,PH-E,routine,Normal situation
+uci-19910210,1991-02-10,9.904130218114497,True,-0.09100492818687927,False,PH-S,routine,Normal situation
+uci-19910211,1991-02-11,3.865003901329819,True,-0.09265484634917792,False,ZN-E,routine,Normal situation
+uci-19910212,1991-02-12,1.9775362826661786,False,-0.07713745892786822,False,PH-D,routine,Normal situation
+uci-19910213,1991-02-13,3.1380140945947774,True,-0.06840287267881678,False,SED-P,routine,Normal situation
+uci-19910214,1991-02-14,1.9955183186213739,False,-0.10031681437868017,False,ZN-E,routine,Normal situation
+uci-19910215,1991-02-15,4.31369555103979,True,-0.06284534700328798,False,SSV-P,routine,Normal situation
+uci-19910217,1991-02-17,1.3006641395712768,False,-0.12548090653999744,False,DBO-P,routine,Normal situation
+uci-19910218,1991-02-18,2.0728299046522047,False,-0.10290505736342348,False,SED-E,routine,Normal situation
+uci-19910219,1991-02-19,1.9775362826661786,False,-0.09828604595522489,False,PH-D,routine,Normal situation
+uci-19910221,1991-02-21,2.562665630229554,False,-0.09148768072015911,False,ZN-E,routine,Normal situation
+uci-19910222,1991-02-22,4.621200316807393,True,-0.06947328390111573,False,ZN-E,routine,Normal situation
+uci-19910224,1991-02-24,2.1591024716883194,False,-0.10874213222411366,False,DBO-P,routine,Normal situation
+uci-19910225,1991-02-25,2.2111290372711703,False,-0.07742381207768106,False,DBO-P,routine,Normal situation
+uci-19910226,1991-02-26,3.121593934971064,True,-0.06890512878193072,False,DBO-P,routine,Normal situation
+uci-19910227,1991-02-27,3.9062753873589657,True,-0.03046801840084712,False,DQO-E,routine,Normal situation
+uci-19910228,1991-02-28,2.627341561933979,False,-0.03456816333578999,False,DBO-P,routine,Normal situation
+uci-19910301,1991-03-01,3.101327111871552,True,-0.027373981027864647,False,SS-E,routine,Normal situation with performance over the mean
+uci-19910303,1991-03-03,3.6951343113682844,True,-0.10775853734514784,False,SED-D,routine,Normal situation
+uci-19910304,1991-03-04,1.724396011971866,False,-0.12233729591327369,False,SED-D,routine,Normal situation
+uci-19910305,1991-03-05,1.4073655510277057,False,-0.12306276042492548,False,ZN-E,routine,Normal situation
+uci-19910306,1991-03-06,1.6373064534770503,False,-0.09085684208899236,False,COND-S,routine,Normal situation
+uci-19910307,1991-03-07,1.3533127474362046,False,-0.09886717991351512,False,DBO-D,routine,Normal situation with low influent
+uci-19910308,1991-03-08,1.846615877148954,False,-0.10960584772102139,False,SSV-E,routine,Normal situation with performance over the mean
+uci-19910310,1991-03-10,1.155857117304916,False,-0.12163456171640524,False,SSV-D,routine,Normal situation
+uci-19910311,1991-03-11,1.1190855411491691,False,-0.11458712901028012,False,DBO-D,routine,Normal situation
+uci-19910312,1991-03-12,1.7717894306465618,False,-0.12158568579290902,False,SSV-S,routine,Normal situation
+uci-19910313,1991-03-13,2.21708058682097,False,-0.0989693587172315,False,SED-D,routine,Normal situation
+uci-19910314,1991-03-14,1.6470410570966014,False,-0.10334759912120484,False,DQO-D,routine,Normal situation
+uci-19910315,1991-03-15,2.2375435834561936,False,-0.06654062353212487,False,COND-P,routine,Normal situation
+uci-19910317,1991-03-17,1.4545805990399967,False,-0.11713442117379813,False,Q-E,routine,Normal situation with performance over the mean
+uci-19910318,1991-03-18,1.2548884244545535,False,-0.12085178237482824,False,DQO-D,routine,Normal situation
+uci-19910319,1991-03-19,1.903937511375398,False,-0.10163123183067696,False,COND-P,routine,Normal situation
+uci-19910320,1991-03-20,1.3793379925792084,False,-0.12749676248963465,False,DBO-D,routine,Normal situation
+uci-19910321,1991-03-21,2.5788019101684205,False,-0.0839459266149511,False,COND-E,routine,Normal situation
+uci-19910322,1991-03-22,1.9416572128639884,False,-0.07242342677745262,False,SSV-D,routine,Normal situation
+uci-19910324,1991-03-24,1.833282205345198,False,-0.051133545081005594,False,DBO-E,routine,Normal situation with low influent
+uci-19910325,1991-03-25,2.421723818127601,False,-0.0602625759174783,False,SSV-P,routine,Normal situation with low influent
+uci-19910326,1991-03-26,2.463422874245523,False,-0.07806516263147828,False,SED-D,routine,Normal situation with performance over the mean
+uci-19910327,1991-03-27,0.747794233083378,False,-0.13348841255048693,False,ZN-E,routine,Normal situation
+uci-19910329,1991-03-29,2.9407638379683405,False,-0.08540651424056594,False,ZN-E,routine,Normal situation
+uci-19910331,1991-03-31,2.6429818460393273,False,-0.0712543183350261,False,DBO-E,routine,Normal situation with performance over the mean
+uci-19910401,1991-04-01,2.116026851760761,False,-0.06679601088434267,False,SED-S,routine,Normal situation
+uci-19910402,1991-04-02,1.2374654886080088,False,-0.12610407137304586,False,DBO-E,routine,Normal situation
+uci-19910403,1991-04-03,1.833282205345198,False,-0.1146684434862349,False,DBO-E,routine,Normal situation
+uci-19910404,1991-04-04,2.4452485823940004,False,-0.11368599699438547,False,DBO-P,routine,Normal situation
+uci-19910405,1991-04-05,2.029036057731192,False,-0.12642896903772688,False,DBO-P,routine,Normal situation
+uci-19910407,1991-04-07,1.6690096198326507,False,-0.10072476258001434,False,PH-E,routine,Normal situation
+uci-19910408,1991-04-08,1.964002850752628,False,-0.10331633379743144,False,DBO-P,routine,Normal situation
+uci-19910409,1991-04-09,1.8998428954392872,False,-0.1112286836436911,False,DBO-D,routine,Normal situation
+uci-19910410,1991-04-10,2.1248577595851055,False,-0.10542427147670147,False,SS-S,routine,Normal situation
+uci-19910411,1991-04-11,1.2670354649391105,False,-0.12886964107752036,False,SSV-S,routine,Normal situation
+uci-19910412,1991-04-12,2.9207668347071367,False,-0.06889511963067235,False,PH-E,routine,Normal situation
+uci-19910414,1991-04-14,1.6690096198326507,False,-0.09564170634769337,False,PH-E,routine,Normal situation with performance over the mean
+uci-19910415,1991-04-15,1.6893806199188142,False,-0.1270561269805205,False,SSV-S,routine,Normal situation
+uci-19910416,1991-04-16,1.4971804676985785,False,-0.12371428365776477,False,DBO-E,routine,Normal situation
+uci-19910417,1991-04-17,1.6648500986512342,False,-0.12774513475024113,False,DBO-P,routine,Normal situation
+uci-19910418,1991-04-18,2.0417303217894482,False,-0.11829746179768907,False,ZN-E,routine,Normal situation
+uci-19910419,1991-04-19,3.4028838696490795,True,-0.10418640232253107,False,ZN-E,routine,Normal situation
+uci-19910421,1991-04-21,1.1916334334743788,False,-0.11342955131080018,False,DBO-E,routine,Normal situation
+uci-19910422,1991-04-22,2.0795401425633266,False,-0.10427262415450617,False,ZN-E,routine,Normal situation with performance over the mean
+uci-19910423,1991-04-23,3.150818397823222,True,-0.10607532886033366,False,ZN-E,routine,Normal situation
+uci-19910424,1991-04-24,4.375974243154654,True,-0.013531283312769427,False,SED-E,routine,Normal situation with performance over the mean
+uci-19910425,1991-04-25,2.100545598548815,False,-0.0967836959539013,False,ZN-E,routine,Normal situation with performance over the mean
+uci-19910426,1991-04-26,3.4664455763400763,True,-0.0572001104004593,False,PH-S,routine,Normal situation with low influent
+uci-19910428,1991-04-28,2.0391936897386493,False,-0.01706904617803562,False,DQO-D,routine,Normal situation with low influent
+uci-19910429,1991-04-29,9.442891787860043,True,-0.03421426257772969,False,SED-E,routine,Normal situation with low influent
+uci-19910501,1991-05-01,1.6690096198326507,False,-0.08313008204848671,False,PH-E,routine,Normal situation with low influent
+uci-19910502,1991-05-02,1.0922837112453836,False,-0.11387408583973951,False,ZN-E,routine,Normal situation
+uci-19910503,1991-05-03,1.1515721692512249,False,-0.12500123210718816,False,SED-E,routine,Normal situation
+uci-19910505,1991-05-05,1.3793379925792084,False,-0.1152551622945781,False,DBO-D,routine,Normal situation with low influent
+uci-19910506,1991-05-06,2.1880743480216904,False,-0.08804794877922223,False,COND-E,routine,Normal situation
+uci-19910507,1991-05-07,1.1184576466450158,False,-0.13318757889885607,False,COND-E,routine,Normal situation
+uci-19910508,1991-05-08,3.3756708643767257,True,-0.006466158984940851,False,Q-E,routine,Normal situation with low influent
+uci-19910509,1991-05-09,3.006855226214679,True,0.018089663807934808,True,Q-E,routine,Normal situation with low influent
+uci-19910510,1991-05-10,2.4760325545286253,False,-0.09693998139399013,False,PH-S,routine,Normal situation with performance over the mean
+uci-19910512,1991-05-12,3.240749319747298,True,-0.044021881042581645,False,Q-E,routine,Normal situation with low influent
+uci-19910513,1991-05-13,1.4816551564907179,False,-0.0936239745406161,False,Q-E,routine,Normal situation with low influent
+uci-19910514,1991-05-14,1.6952489936316613,False,-0.10906464820201739,False,SED-P,routine,Normal situation
+uci-19910515,1991-05-15,1.3818866031014698,False,-0.12421589775190112,False,SED-E,routine,Normal situation
+uci-19910516,1991-05-16,2.4287501478512152,False,-0.08734591446294693,False,SS-E,routine,Normal situation with performance over the mean
+uci-19910517,1991-05-17,0.9120023115114941,False,-0.13432683877356522,False,DQO-E,routine,Normal situation
+uci-19910519,1991-05-19,1.2301808081808505,False,-0.11549470949819773,False,SS-S,routine,Normal situation
+uci-19910520,1991-05-20,2.0602202681936763,False,-0.08902527877332583,False,SSV-S,routine,Normal situation with performance over the mean
+uci-19910521,1991-05-21,1.174325552870396,False,-0.12435691606828264,False,SSV-S,routine,Normal situation
+uci-19910522,1991-05-22,2.4712618651854257,False,-0.1203522899199781,False,DBO-P,routine,Normal situation
+uci-19910523,1991-05-23,2.0862620247908117,False,-0.11347190296219739,False,PH-E,routine,Normal situation
+uci-19910524,1991-05-24,16.92652026117847,True,0.02405583379965265,True,SS-E,nonroutine,Solids overload-2
+uci-19910526,1991-05-26,1.2517572148744898,False,-0.1082271873663786,False,PH-E,routine,Normal situation with low influent
+uci-19910527,1991-05-27,1.504301114264912,False,-0.10596641922072036,False,COND-E,routine,Normal situation with low influent
+uci-19910528,1991-05-28,14.96868792249233,True,0.06909803994998803,True,SED-P,nonroutine,Solids overload-1
+uci-19910529,1991-05-29,1.4665222713631534,False,-0.10519350378394282,False,SSV-D,routine,Normal situation with performance over the mean
+uci-19910530,1991-05-30,5.230023490991297,True,-0.061314491900873014,False,SED-P,routine,Normal situation with performance over the mean
+uci-19910531,1991-05-31,7.17415428288359,True,0.029306762730452685,True,SS-E,nonroutine,Solids overload-1
+uci-19910602,1991-06-02,1.1305240266295389,False,-0.11910514183186677,False,DBO-E,routine,Normal situation
+uci-19910603,1991-06-03,1.2624194633427268,False,-0.12042170113107609,False,SED-P,routine,Normal situation
+uci-19910604,1991-06-04,0.9676898075511937,False,-0.12707014994724697,False,Q-E,routine,Normal situation
+uci-19910605,1991-06-05,1.8194510649662696,False,-0.12194872012699459,False,SS-P,routine,Normal situation with performance over the mean
+uci-19910606,1991-06-06,1.5952472900620238,False,-0.1145797414321838,False,SS-D,routine,Normal situation
+uci-19910607,1991-06-07,1.8484801267229571,False,-0.11218963852215319,False,ZN-E,routine,Normal situation
+uci-19910609,1991-06-09,1.2679601788759551,False,-0.10105791393572067,False,DQO-D,routine,Normal situation with low influent
+uci-19910610,1991-06-10,2.164519370390907,False,-0.10115222289641501,False,SS-P,routine,Normal situation with performance over the mean
+uci-19910612,1991-06-12,1.6690096198326507,False,-0.0909616963674088,False,PH-E,routine,Normal situation with performance over the mean
+uci-19910613,1991-06-13,1.2517572148744898,False,-0.12417825194517501,False,PH-E,routine,Normal situation
+uci-19910614,1991-06-14,2.9207668347071367,False,-0.0672912899688915,False,PH-E,routine,Normal situation with performance over the mean
+uci-19910616,1991-06-16,1.6690096198326507,False,-0.12412412357237124,False,PH-E,routine,Normal situation
+uci-19910617,1991-06-17,1.2979387689620154,False,-0.1303040596869089,False,SSV-S,routine,Normal situation
+uci-19910618,1991-06-18,1.3199413004175777,False,-0.12412822160526216,False,DQO-S,routine,Normal situation
+uci-19910619,1991-06-19,1.2517572148744898,False,-0.12012900641480512,False,PH-E,routine,Normal situation
+uci-19910620,1991-06-20,1.1966110084055745,False,-0.12592135028076318,False,DBO-P,routine,Normal situation
+uci-19910621,1991-06-21,1.1305240266295389,False,-0.13728770429467485,False,DBO-E,routine,Normal situation
+uci-19910624,1991-06-24,2.503514429748976,False,-0.0874830697481685,False,PH-E,routine,Normal situation with low influent
+uci-19910625,1991-06-25,1.2517572148744898,False,-0.12034130115954011,False,PH-E,routine,Normal situation
+uci-19910626,1991-06-26,1.4025617984688112,False,-0.12148596339797135,False,SSV-D,routine,Normal situation
+uci-19910627,1991-06-27,2.389380523124391,False,-0.09671587557308042,False,SSV-D,routine,Normal situation
+uci-19910628,1991-06-28,1.1166731030434167,False,-0.11706766815195391,False,SS-D,routine,Normal situation
+uci-19910630,1991-06-30,2.0602202681936763,False,-0.10190460770050502,False,SSV-S,routine,Normal situation
+uci-19910701,1991-07-01,2.0862620247908117,False,-0.10562916468646638,False,PH-E,routine,Normal situation
+uci-19910702,1991-07-02,2.4051034409772143,False,-0.07501447797482969,False,DQO-E,routine,Normal situation with low influent
+uci-19910703,1991-07-03,1.4856195327171744,False,-0.11218288996214565,False,PH-S,routine,Normal situation
+uci-19910704,1991-07-04,2.142556510519791,False,-0.11364308568555903,False,ZN-E,routine,Normal situation
+uci-19910705,1991-07-05,2.1855227292312516,False,-0.05272991335773869,False,PH-P,routine,Normal situation with performance over the mean
+uci-19910707,1991-07-07,1.7484181833850028,False,-0.07493972647184227,False,PH-P,routine,Normal situation
+uci-19910708,1991-07-08,13.443491830712414,True,-0.05074688293185631,False,ZN-E,routine,Normal situation with performance over the mean
+uci-19910709,1991-07-09,7.393920506891829,True,-0.06660089435567462,False,ZN-E,routine,Normal situation with performance over the mean
+uci-19910710,1991-07-10,0.9242400633614786,False,-0.13003268585932892,False,ZN-E,routine,Normal situation
+uci-19910711,1991-07-11,2.016523774606862,False,-0.11313908730547823,False,ZN-E,routine,Normal situation
+uci-19910712,1991-07-12,1.9152089457039363,False,-0.10733008070416006,False,DQO-S,routine,Normal situation
+uci-19910714,1991-07-14,1.2517572148744898,False,-0.11965460259644212,False,PH-E,routine,Normal situation with low influent
+uci-19910715,1991-07-15,3.390437457935347,True,-0.08525450987779304,False,DQO-S,routine,Normal situation
+uci-19910716,1991-07-16,1.3559601965527202,False,-0.11792410549016996,False,SS-D,routine,Normal situation
+uci-19910717,1991-07-17,5.305646403639283,True,-0.02449594041932457,False,DQO-S,nonroutine,Secondary settler problems-3
+uci-19910718,1991-07-18,5.357408807577228,True,-0.028509323907664974,False,DQO-S,nonroutine,Secondary settler problems-3
+uci-19910719,1991-07-19,4.288058015263796,True,-0.0028306102083740514,False,DBO-S,nonroutine,Secondary settler problems-3
+uci-19910721,1991-07-21,2.503514429748976,False,-0.09281009125969253,False,PH-E,routine,Normal situation with performance over the mean
+uci-19910722,1991-07-22,1.7484181833850028,False,-0.09107255853256824,False,PH-P,routine,Normal situation
+uci-19910723,1991-07-23,1.9085469804084894,False,-0.110205438627199,False,COND-S,routine,Normal situation
+uci-19910724,1991-07-24,1.1055645186355851,False,-0.10560767697255502,False,DBO-P,routine,Normal situation
+uci-19910725,1991-07-25,1.7644583027810044,False,-0.07416104819481012,False,ZN-E,routine,Normal situation
+uci-19910726,1991-07-26,1.6019830048015946,False,-0.07537939801752302,False,COND-E,routine,Normal situation with performance over the mean
+uci-19910728,1991-07-28,1.7484181833850028,False,-0.07408397546975337,False,PH-P,routine,Normal situation
+uci-19910729,1991-07-29,1.2492117668641889,False,-0.08773234164097271,False,DBO-D,routine,Normal situation with low influent
+uci-19910730,1991-07-30,2.1855227292312516,False,-0.09694153235894498,False,PH-P,routine,Normal situation
+uci-19910731,1991-07-31,1.7484181833850028,False,-0.11595306001321415,False,PH-P,routine,Normal situation
+uci-19910801,1991-08-01,2.0862620247908117,False,-0.09618390489287515,False,PH-E,routine,Normal situation
+uci-19910802,1991-08-02,1.7484181833850028,False,-0.09873194059384038,False,PH-P,routine,Normal situation
+uci-19910804,1991-08-04,2.503514429748976,False,-0.053426266251872634,False,PH-E,routine,Normal situation with low influent
+uci-19910805,1991-08-05,1.8594223191426908,False,-0.06437373842812161,False,SSV-D,unlabeled,
+uci-19910806,1991-08-06,1.4856195327171744,False,-0.0847190224167177,False,PH-S,unlabeled,
+uci-19910807,1991-08-07,1.4313884828652164,False,-0.07054793784882324,False,DBO-D,unlabeled,
+uci-19910808,1991-08-08,2.8958174839764492,False,-0.0040789973738789564,False,SS-E,unlabeled,
+uci-19910809,1991-08-09,1.3177439847191428,False,-0.08130999972628977,False,COND-P,routine,Normal situation with low influent
+uci-19910811,1991-08-11,3.025055345389886,True,0.011833470026871795,True,Q-E,routine,Normal situation with low influent
+uci-19910812,1991-08-12,2.0851370946140273,False,-0.03467552094425508,False,SSV-E,routine,Normal situation with low influent
+uci-19910813,1991-08-13,1.7484181833850028,False,-0.039806156423072,False,PH-P,routine,Normal situation with low influent
+uci-19910814,1991-08-14,1.925868140582291,False,-0.03790506439093505,False,DBO-D,routine,Normal situation with low influent
+uci-19910816,1991-08-16,2.055994366297311,False,-0.053360880939502475,False,DBO-D,routine,Normal situation with low influent
+uci-19910818,1991-08-18,2.503514429748976,False,-0.037802639637750546,False,PH-E,routine,Normal situation with low influent
+uci-19910819,1991-08-19,1.4509647407755775,False,-0.08359806561920402,False,DQO-D,routine,Normal situation with low influent
+uci-19910820,1991-08-20,1.6339693026752,False,-0.07636623281921112,False,DQO-D,routine,Normal situation with low influent
+uci-19910821,1991-08-21,1.6078257938323968,False,-0.07832737862499572,False,DQO-D,routine,Normal situation with low influent
+uci-19910822,1991-08-22,1.6690096198326507,False,-0.06238082566446446,False,PH-E,routine,Normal situation with low influent
+uci-19910823,1991-08-23,1.5816883687145902,False,-0.056805273427742,False,SSV-P,routine,Normal situation with low influent
+uci-19910825,1991-08-25,1.9738349176316414,False,-0.042487555733104754,False,DQO-D,routine,Normal situation with low influent
+uci-19910826,1991-08-26,2.0602202681936763,False,-0.03839445134714414,False,SSV-S,routine,Normal situation with low influent
+uci-19910827,1991-08-27,1.2723646536056594,False,-0.10290063793532422,False,COND-S,routine,Normal situation
+uci-19910828,1991-08-28,2.0862620247908117,False,-0.10527639457497578,False,PH-E,routine,Normal situation with low influent
+uci-19910829,1991-08-29,2.503514429748976,False,-0.09927701572145453,False,PH-E,routine,Normal situation
+uci-19910830,1991-08-30,2.1855227292312516,False,-0.08472565450286146,False,PH-P,routine,Normal situation with low influent
+uci-19911001,1991-10-01,1.311313637538754,False,-0.10200942625944437,False,PH-P,routine,Normal situation with low influent
+uci-19911002,1991-10-02,1.6690096198326507,False,-0.11747435944076784,False,PH-E,routine,Normal situation with performance over the mean
+uci-19911003,1991-10-03,1.7484181833850028,False,-0.11777241598484456,False,PH-P,routine,Normal situation with low influent
+uci-19911004,1991-10-04,2.4463730434423696,False,-0.11171870411723883,False,DBO-D,routine,Normal situation
+uci-19911005,1991-10-05,2.503514429748976,False,-0.07745005361822915,False,PH-E,routine,Normal situation with low influent
+uci-19911006,1991-10-06,1.2603273591292887,False,-0.11425514702188183,False,ZN-E,routine,Normal situation
+uci-19911008,1991-10-08,2.023583232042396,False,-0.0820327136664547,False,SSV-E,routine,Normal situation with performance over the mean
+uci-19911009,1991-10-09,1.3849233084917218,False,-0.10230085447321519,False,SSV-P,routine,Normal situation with performance over the mean
+uci-19911011,1991-10-11,1.5880289428257948,False,-0.1066685586177385,False,SS-E,routine,Normal situation with performance over the mean
+uci-19911012,1991-10-12,1.578753320107299,False,-0.11050608299812281,False,DQO-S,routine,Normal situation with low influent
+uci-19911013,1991-10-13,1.2517572148744898,False,-0.112249511220259,False,PH-E,routine,Normal situation with performance over the mean
+uci-19911015,1991-10-15,1.748181881210862,False,-0.057660726143780705,False,SSV-P,routine,Normal situation with low influent
+uci-19911016,1991-10-16,1.8461877311433013,False,-0.09666122413591238,False,COND-E,routine,Normal situation with performance over the mean
+uci-19911017,1991-10-17,1.0820738257223372,False,-0.11296852959870435,False,SED-P,routine,Normal situation
+uci-19911018,1991-10-18,0.8716482269313395,False,-0.13544322433722505,False,DQO-E,routine,Normal situation
+uci-19911019,1991-10-19,0.990413021811451,False,-0.11894256332986008,False,PH-S,routine,Normal situation
+uci-19911020,1991-10-20,1.6019830048015946,False,-0.09754285822899567,False,COND-E,routine,Normal situation
+uci-19911022,1991-10-22,1.585306006738363,False,-0.09533084463803082,False,SSV-D,routine,Normal situation
+uci-19911023,1991-10-23,0.990413021811451,False,-0.130223858484587,False,PH-S,routine,Normal situation
+uci-19911024,1991-10-24,2.115264210720063,False,-0.11754123036255582,False,SSV-D,routine,Normal situation
+uci-19911025,1991-10-25,1.311313637538754,False,-0.11956853078797353,False,PH-P,routine,Normal situation
+uci-19911026,1991-10-26,1.5011097142003824,False,-0.09323273919939701,False,DQO-S,routine,Normal situation
+uci-19911027,1991-10-27,2.436632894316625,False,-0.11452522906192547,False,ZN-E,routine,Normal situation
+uci-19911029,1991-10-29,1.3818866031014698,False,-0.12028545733187263,False,SED-E,routine,Normal situation
+uci-19911030,1991-10-30,5.419530323340151,True,-0.0974424538210949,False,SED-D,routine,Normal situation

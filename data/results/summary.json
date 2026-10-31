@@ -1,0 +1,119 @@
+{
+  "screening": {
+    "uci_water_treatment": {
+      "rows": 527,
+      "features": [
+        "Q-E",
+        "ZN-E",
+        "PH-E",
+        "DBO-E",
+        "DQO-E",
+        "SS-E",
+        "SSV-E",
+        "SED-E",
+        "COND-E",
+        "PH-P",
+        "DBO-P",
+        "SS-P",
+        "SSV-P",
+        "SED-P",
+        "COND-P",
+        "PH-D",
+        "DBO-D",
+        "DQO-D",
+        "SS-D",
+        "SSV-D",
+        "SED-D",
+        "COND-D",
+        "PH-S",
+        "DBO-S",
+        "DQO-S",
+        "SS-S",
+        "SSV-S",
+        "SED-S",
+        "COND-S"
+      ],
+      "flagged_z": 88,
+      "flagged_if": 24,
+      "seasonal_mode": "none",
+      "cluster_overlap": {
+        "zscore": {
+          "routine": {
+            "days": 509,
+            "flagged": 74
+          },
+          "nonroutine": {
+            "days": 14,
+            "flagged": 14
+          },
+          "unlabeled": {
+            "days": 4,
+            "flagged": 0
+          }
+        },
+        "isolation_forest": {
+          "routine": {
+            "days": 509,
+            "flagged": 14
+          },
+          "nonroutine": {
+            "days": 14,
+            "flagged": 10
+          },
+          "unlabeled": {
+            "days": 4,
+            "flagged": 0
+          }
+        },
+        "note": "The authors' conceptual clusters are not a fault gold standard. This only reports how many days the screening flags overlap those clusters."
+      }
+    },
+    "bsm1_influent": {
+      "rows": 4035,
+      "features": [
+        "Ss",
+        "Xi",
+        "Xs",
+        "Xbh",
+        "Snh",
+        "Snd",
+        "Xnd",
+        "Q"
+      ],
+      "flagged_z": 549,
+      "flagged_if": 458,
+      "seasonal_mode": "time_of_day"
+    },
+    "dhi_wwtp_inflow": {
+      "rows": 11257,
+      "features": [
+        "flow"
+      ],
+      "flagged_z": 230,
+      "flagged_if": 442,
+      "seasonal_mode": "hour_of_week"
+    },
+    "koeln_weiden": {
+      "rows": 26280,
+      "features": [
+        "inflow_L_s",
+        "level_1_m",
+        "level_2_m",
+        "level_3_m",
+        "level_storage_m"
+      ],
+      "flagged_z": 1892,
+      "flagged_if": 1630,
+      "seasonal_mode": "hour_of_week"
+    }
+  },
+  "synthetic_f1": {
+    "zscore": 0.46153846153846156,
+    "isolation_forest": 0.25,
+    "random_forest": 0.14285714285714285
+  },
+  "primary_model": "isolation_forest",
+  "primary_f1_synthetic": 0.25,
+  "bsm1_scenario_macro_f1": 0.21569299803112552,
+  "label_policy": "Every displayed F1 comes from a synthetic anomaly test or a simulated scenario classification. None of them is real wastewater-plant fault detection performance."
+}

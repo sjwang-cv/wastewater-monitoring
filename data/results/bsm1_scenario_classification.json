@@ -1,0 +1,39 @@
+{
+  "task": "Classify the influent-file scenario. The label is the file identity, not instantaneous weather and not an in-plant fault.",
+  "accuracy": 0.22135416666666666,
+  "macro_f1": 0.21569299803112552,
+  "confusion_matrix": [
+    [
+      126,
+      157,
+      101
+    ],
+    [
+      228,
+      55,
+      101
+    ],
+    [
+      264,
+      46,
+      74
+    ]
+  ],
+  "labels": [
+    "dry",
+    "rain",
+    "storm"
+  ],
+  "train_rows": 2883,
+  "test_rows": 1152,
+  "features": [
+    "Ss",
+    "Xi",
+    "Xs",
+    "Xbh",
+    "Snh",
+    "Snd",
+    "Xnd",
+    "Q"
+  ]
+}

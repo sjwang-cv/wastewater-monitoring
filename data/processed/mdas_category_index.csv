@@ -1,0 +1,6 @@
+dataset_id,organism_category,code,size_range_um,group_en,image_id,image_path,bounding_boxes,segmentation_mask,magnification
+mdas_2025,Arcellinida,Ar,20–250,Testate amoebae,,,Annotated set is PASCAL VOC XML; images were not downloaded into this repository,,10× objective
+mdas_2025,Digononta,Do,40–420,Bdelloid rotifers,,,Annotated set is PASCAL VOC XML; images were not downloaded into this repository,,10× objective
+mdas_2025,Monogononta,Mo,40–210,Monogonont rotifers,,,Annotated set is PASCAL VOC XML; images were not downloaded into this repository,,10× objective
+mdas_2025,Nematoda,Ne,40–660,Nematodes,,,Annotated set is PASCAL VOC XML; images were not downloaded into this repository,,10× objective
+mdas_2025,Hypotrichida,Eu,40–190,Hypotrichs,,,Annotated set is PASCAL VOC XML; images were not downloaded into this repository,,10× objective

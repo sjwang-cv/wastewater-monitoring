@@ -1,0 +1,254 @@
+{
+  "datasets": 7,
+  "bundled_datasets": 5,
+  "bundled_samples": 121653,
+  "uci_cluster": {
+    "cluster_labeled_days": 523,
+    "cluster_unlabeled_days": 4,
+    "cluster_conflicts": [],
+    "missing_check": [
+      {
+        "feature": "Q-E",
+        "documented": 18,
+        "observed": 18,
+        "match": true
+      },
+      {
+        "feature": "ZN-E",
+        "documented": 3,
+        "observed": 3,
+        "match": true
+      },
+      {
+        "feature": "PH-E",
+        "documented": 0,
+        "observed": 0,
+        "match": true
+      },
+      {
+        "feature": "DBO-E",
+        "documented": 23,
+        "observed": 23,
+        "match": true
+      },
+      {
+        "feature": "DQO-E",
+        "documented": 6,
+        "observed": 6,
+        "match": true
+      },
+      {
+        "feature": "SS-E",
+        "documented": 1,
+        "observed": 1,
+        "match": true
+      },
+      {
+        "feature": "SSV-E",
+        "documented": 11,
+        "observed": 11,
+        "match": true
+      },
+      {
+        "feature": "SED-E",
+        "documented": 25,
+        "observed": 25,
+        "match": true
+      },
+      {
+        "feature": "COND-E",
+        "documented": 0,
+        "observed": 0,
+        "match": true
+      },
+      {
+        "feature": "PH-P",
+        "documented": 0,
+        "observed": 0,
+        "match": true
+      },
+      {
+        "feature": "DBO-P",
+        "documented": 40,
+        "observed": 40,
+        "match": true
+      },
+      {
+        "feature": "SS-P",
+        "documented": 0,
+        "observed": 0,
+        "match": true
+      },
+      {
+        "feature": "SSV-P",
+        "documented": 11,
+        "observed": 11,
+        "match": true
+      },
+      {
+        "feature": "SED-P",
+        "documented": 24,
+        "observed": 24,
+        "match": true
+      },
+      {
+        "feature": "COND-P",
+        "documented": 0,
+        "observed": 0,
+        "match": true
+      },
+      {
+        "feature": "PH-D",
+        "documented": 0,
+        "observed": 0,
+        "match": true
+      },
+      {
+        "feature": "DBO-D",
+        "documented": 28,
+        "observed": 28,
+        "match": true
+      },
+      {
+        "feature": "DQO-D",
+        "documented": 9,
+        "observed": 9,
+        "match": true
+      },
+      {
+        "feature": "SS-D",
+        "documented": 2,
+        "observed": 2,
+        "match": true
+      },
+      {
+        "feature": "SSV-D",
+        "documented": 13,
+        "observed": 13,
+        "match": true
+      },
+      {
+        "feature": "SED-D",
+        "documented": 25,
+        "observed": 25,
+        "match": true
+      },
+      {
+        "feature": "COND-D",
+        "documented": 0,
+        "observed": 0,
+        "match": true
+      },
+      {
+        "feature": "PH-S",
+        "documented": 1,
+        "observed": 1,
+        "match": true
+      },
+      {
+        "feature": "DBO-S",
+        "documented": 23,
+        "observed": 23,
+        "match": true
+      },
+      {
+        "feature": "DQO-S",
+        "documented": 18,
+        "observed": 18,
+        "match": true
+      },
+      {
+        "feature": "SS-S",
+        "documented": 5,
+        "observed": 5,
+        "match": true
+      },
+      {
+        "feature": "SSV-S",
+        "documented": 17,
+        "observed": 17,
+        "match": true
+      },
+      {
+        "feature": "SED-S",
+        "documented": 28,
+        "observed": 28,
+        "match": true
+      },
+      {
+        "feature": "COND-S",
+        "documented": 1,
+        "observed": 1,
+        "match": true
+      },
+      {
+        "feature": "RD-DBO-P",
+        "documented": 62,
+        "observed": 62,
+        "match": true
+      },
+      {
+        "feature": "RD-SS-P",
+        "documented": 4,
+        "observed": 4,
+        "match": true
+      },
+      {
+        "feature": "RD-SED-P",
+        "documented": 27,
+        "observed": 27,
+        "match": true
+      },
+      {
+        "feature": "RD-DBO-S",
+        "documented": 40,
+        "observed": 40,
+        "match": true
+      },
+      {
+        "feature": "RD-DQO-S",
+        "documented": 26,
+        "observed": 26,
+        "match": true
+      },
+      {
+        "feature": "RD-DBO-G",
+        "documented": 36,
+        "observed": 36,
+        "match": true
+      },
+      {
+        "feature": "RD-DQO-G",
+        "documented": 25,
+        "observed": 25,
+        "match": true
+      },
+      {
+        "feature": "RD-SS-G",
+        "documented": 8,
+        "observed": 8,
+        "match": true
+      },
+      {
+        "feature": "RD-SED-G",
+        "documented": 31,
+        "observed": 31,
+        "match": true
+      }
+    ],
+    "cluster_counts": {
+      "routine": 509,
+      "nonroutine": 14,
+      "unlabeled": 4
+    }
+  },
+  "counts": {
+    "uci_water_treatment": 527,
+    "bsm1_influent": 4035,
+    "dhi_wwtp_inflow": 11257,
+    "koeln_weiden": 105120,
+    "aquafetch_nutrient_recovery": 714,
+    "mdas_2025": null,
+    "swat_a1": null
+  }
+}
